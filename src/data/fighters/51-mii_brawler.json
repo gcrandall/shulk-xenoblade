@@ -1,0 +1,83 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Treat Brawler like a discount [Mario](/details/mario) or [Fox](/details/fox) and keep them out.",
+        "Watch for N-Air into F-Smash and U-Smash OoS at low percents.",
+        "Don't get cheesed by their spikes.",
+        "Keep shield art available so you don't die to thrupper combos."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 47]
+        ],
+        "ftilt": [
+            [26, 47]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Coach Ben",
+            "opponent": "Superberry",
+            "id": "7lGyGCUn3ds",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "FireThePyro",
+            "id": "k_GXKvb_9fY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Rizeasu",
+            "id": "oNXiR25_dnE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "Superberry",
+            "id": "juJc1iEqbYA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "Superberry",
+            "id": "4K_akkeQgnk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "Superberry",
+            "id": "9EJgNK4c43w",
+            "timeStamp": null
+        }
+    ]
+}

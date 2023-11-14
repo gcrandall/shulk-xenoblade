@@ -1,0 +1,65 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "He likes to land with N-Air. Don't challenge it. Whiff punish it instead.",
+        "Have a basic understanding of how crown armor works (breaks at 14.4%). You might get your Speed art aerial eaten and die for it.",
+        "Be extremely cautious of his grab game. You can die very early if you get grabbed at the wrong percent.",
+        "His recovery can be spiked with D-Air."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 59]
+        ],
+        "ftilt": [
+            [0, 59]
+        ],
+        "fsmash": [
+            [2, 25],
+            [32, 59]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "King Kila",
+            "id": "JGGgKR9GZMM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Kople",
+            "id": "qez9IvyLOn4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Ball",
+            "id": "yu-tBMPWaT8",
+            "timeStamp": null
+        }
+    ]
+}

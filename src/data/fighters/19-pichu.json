@@ -1,0 +1,75 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use parries and retreating movement to deal with tjolt.",
+        "Take advantage of Pichu's lack of a hitbox for free 2 frame attempts on their recovery.",
+        "Lazy pressure on her shield has you losing neutral; try to space just off block instead.",
+        "Using Smash art as a combo breaker counters all of their combos. Save Shield art for the multi-hit kill moves."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [2, 38]
+        ],
+        "ftilt": [
+            [20, 38]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "VoiD",
+            "id": "SjpbHFXgalA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Nietono",
+            "id": "QN5KOPVy1uo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Eon",
+            "id": "4nv-EZMGu3s",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "Blacktwins",
+            "id": "HRs2xcIrsik",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "SumGai",
+            "id": "FAwooBcPtnY",
+            "timeStamp": null
+        }
+    ]
+}

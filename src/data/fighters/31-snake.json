@@ -1,0 +1,101 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Snake shielding while holding grenade beats all aggressive aerial based pressure. Play grounded and use your movement to open him up.",
+        "If he starts recovering high either already be in jump when you hit him offstage, or prepare to let him land.",
+        "As long as the last 3 moves you used to hit Snake weren't F-Air, you can use it to break Cypher armor. This includes pummeling 2 times to guarantee a F-Air after throwing him offstage.",
+        "Do not pummel Snake if he is holding a grenade. It will explode.",
+        "You can also use B-Air or D-Air to break Cypher armor.",
+        "Red loses to Cypher armor and you take huge damage from traps in green and purple monado. Beware.",
+        "He can sticky you even if you're shielding, so watch out for that.",
+        "Read Coach Ben's [5-Minute Cypher Tutorial](https://media.discordapp.net/attachments/182189594673020928/677964965310758932/cypher.png) for details on how to deal with Cypher.",
+        "Read Ramses's [Snake Write-Up](https://docs.google.com/document/d/1EUvSu0q0ilkr0uXdgZAIofJD9yuN1lYSOLP2EpxhJcw/edit?usp=sharing) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 7],
+            [16, 17]
+        ],
+        "ftilt": [
+            [28, 51]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "0Mart",
+            "id": "TtZhKie7weU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "ApolloKage",
+            "id": "GwHxtuiQRJE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "IQ",
+            "id": "6AvT59BUXeU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "MVD",
+            "id": "Kvtwh-XiUhQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Ki",
+            "id": "mIQlKoTQ2kU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Melo",
+            "id": "hwSmHCuz-0c",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Melo",
+            "id": "GNQjO1IyysY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Tremendo Dude",
+            "opponent": "ApolloKage",
+            "id": "LZ1OHV6eeSI",
+            "timeStamp": null
+        }
+    ]
+}

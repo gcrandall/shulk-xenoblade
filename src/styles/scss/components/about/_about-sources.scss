@@ -1,0 +1,20 @@
+.c-about-sources {
+    @include responsive-properties((
+    	column-count:		(1, 2, null, 3),
+    ), (md, xl, xxl));
+    column-gap: 1rem;
+    word-wrap: break-word;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    li {
+        display: block;
+        margin-block: 1rem;
+        &:first-child {
+            margin-top: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

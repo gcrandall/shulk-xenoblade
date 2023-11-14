@@ -1,0 +1,158 @@
+.c-safety-calc {
+    $art-color-smash: #e61e38;
+    $art-color-jump: #15fc32;
+    $art-color-buster: #8c55f6;
+    $art-color-speed: #0991f6;
+    $art-color-shield: #f2ce3f;
+
+    $portrait-bg: color.scale(#333333, $lightness: -20%);
+
+    display: flex;
+    flex-direction: column;
+    max-height: 35rem;
+    overflow-y: hidden;
+
+    .c-data-table {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    &__fighters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 25rem;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        @include media-breakpoint-down(md) {
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        &-portrait {
+            $portrait-border-radius: 0.5rem;
+            $portrait-glow: 0px 0px 2px 1px rgba(238,196,99,0.75);
+            z-index: 2;
+            flex-grow: 0;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.15rem;
+            background-color: #ffff5e;
+            overflow: hidden;
+            aspect-ratio: 1 / 1;
+            border-radius: $portrait-border-radius;
+            box-shadow: $portrait-glow;
+            @include responsive-properties((
+            	width:		(5rem, 7rem, null)
+            ));
+            img {
+                position: relative;
+                display: block;
+                width: 100%;
+                background-color: $portrait-bg;
+                border-radius: $portrait-border-radius;
+            }
+        }
+        &-swap {
+            z-index: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 1.5rem;
+            @include media-breakpoint-up(md) {
+                width: 10rem;
+            }
+            background-color: $portrait-bg;
+            border-block: 2px solid rgba(0, 0, 0, 0.2);
+            button {
+                aspect-ratio: 1 / 1;
+            }
+        }
+    }
+
+    &__arts {
+        flex-grow: 0;
+        flex-shrink: 0;
+        display: flex;
+        align-items: stretch;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 100%;
+        max-width: 20rem;
+        margin: 0px auto;
+        margin-bottom: 0.75rem;
+        overflow: hidden;
+        height: 2rem;
+        border-radius: 1rem;
+        button {
+            flex-grow: 1;
+            flex-shrink: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            outline-color: transparent;
+            text-shadow: 0 0 3px black;
+            transition: 0.3s all;
+
+            &.icon-x {
+                color: #FFFFFF;
+            }
+            &.icon-monado-smash {
+                color: $art-color-smash;
+            }
+            &.icon-monado-jump {
+                color: $art-color-jump;
+            }
+            &.icon-monado-buster {
+                color: $art-color-buster;
+            }
+            &.icon-monado-speed {
+                color: $art-color-speed;
+            }
+            &.icon-monado-shield {
+                color: $art-color-shield;
+            }
+
+            &.active {
+                color: #FFFFFF;
+                &.icon-x {
+                    color: rgba(0, 0, 0, 0.5);
+                    background-color: #FFFFFF;
+                    text-shadow: none;
+                }
+                &.icon-monado-smash {
+                    background-color: $art-color-smash;
+                }
+                &.icon-monado-jump {
+                    background-color: $art-color-jump;
+                }
+                &.icon-monado-buster {
+                    background-color: $art-color-buster;
+                }
+                &.icon-monado-speed {
+                    background-color: $art-color-speed;
+                }
+                &.icon-monado-shield {
+                    background-color: $art-color-shield;
+                }    
+            }
+        }
+    }
+
+    &__data {
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        flex-grow: 1;
+        flex-shrink: 1;
+        display: flex;
+        overflow-y: scroll;
+        .c-data-table {
+            th, td {
+                width: 50%;
+            }
+        }
+    }
+}

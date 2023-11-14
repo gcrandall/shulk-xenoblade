@@ -1,0 +1,69 @@
+.c-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    background-color: $card-bg-brown;
+    border: 2px solid $card-border;
+    border-radius: 1rem;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    &--teal {
+        background-color: #394852;
+    }
+    &--purple {
+        background-color: #5E5172;
+    }
+    &--transparent {
+        background-color: rgba(33, 33, 33, 0.6);
+    }
+    &--dark {
+        background-color: #333333;
+    }
+    &--light {
+        background-color: $light-ui-bg;
+        color: $light-ui-text;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 2rem;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1rem !important;
+        &::before,
+        &::after {
+            @include fontello-base;
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 1rem;
+        }
+        &::before {
+            @include fontello-icon($icon-header-start);
+            margin-left: 0.5rem;
+        }
+        &::after {
+            @include fontello-icon($icon-header-end);
+            margin-right: 0.5rem;
+        }
+    }
+
+    &__footnotes {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 0.5rem;
+        font-size: smaller;
+        text-align: right;
+        p {
+            margin: 0;
+            &:first-child {
+                margin-top: 1rem;
+            }
+            &:not(:last-child) {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}

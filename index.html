@@ -2,12 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta name="viewport" content="height=device-height, 
+      width=device-width, initial-scale=1.0, 
+      minimum-scale=1.0, maximum-scale=1.0, 
+      user-scalable=no, target-densitydpi=device-dpi">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2C2A28">
+    <meta name="msapplication-TileColor" content="#2C2A28">
+    <meta name="theme-color" content="#2C2A28">
+
+    <!-- Primary Meta Tags -->
+    <title>ShulkXenoblade.com</title>
+    <meta name="title" content="ShulkXenoblade.com">
+    <meta name="description" content="The definitive resource for information on Shulk's matchups in Super Smash Bros. Ultimate">
+    <link rel="canonical" href="https://shulkxenoblade.com/" />
+    <meta name="robots" content="index, nofollow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="https://shulkxenoblade.com/">
+    <meta name="og:title" content="ShulkXenoblade.com">
+    <meta name="og:description" content="The definitive resource for information on Shulk's matchups in Super Smash Bros. Ultimate">
+    <meta name="og:image" content="%PUBLIC_URL%/social-media-preview.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://shulkxenoblade.com/">
+    <meta name="twitter:title" content="ShulkXenoblade.com">
+    <meta name="twitter:description" content="The definitive resource for information on Shulk's matchups in Super Smash Bros. Ultimate">
+    <meta name="twitter:image" content="%PUBLIC_URL%/social-media-preview.png">
+
+    <!-- Adobe Font -->
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'bgd2vgx',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
   </head>
+
   <body>
+    <noscript>
+      The definitive resource for information on Shulk's matchups in Super Smash Bros. Ultimate.
+      <br /><br /><br /><br /><br />
+      You need to enable JavaScript to run this app.
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+
 </html>

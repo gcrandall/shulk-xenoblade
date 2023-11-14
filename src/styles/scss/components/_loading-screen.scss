@@ -1,0 +1,24 @@
+.c-loading-screen {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: black;
+    background-image: url("../assets/images/xenobladeLoadingScreen.gif");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    @include responsive-properties((
+    	background-size:		(200px, 300px, null)
+    ));
+
+    &.active {
+        opacity: 100%;
+        pointer-events: initial;
+    }
+}

@@ -1,0 +1,20 @@
+.c-data-table {
+    font-size: 0.875rem;
+    border-spacing: 0.5rem;
+    border-collapse: separate;
+    tr {
+        &:nth-child(odd) {
+            td, th {
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+        }
+
+        td, th {
+            padding: 0.3rem 0.5rem;
+            vertical-align: top;
+            span {
+                display: block;
+            }
+        }
+    }
+}

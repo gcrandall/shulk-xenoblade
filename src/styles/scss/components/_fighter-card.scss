@@ -1,0 +1,176 @@
+.c-fighter-card {
+    $fighter-card-bg: #242422;
+    $fighter-card-color: #FAFAFA;
+    $fighter-card-text-shadow: 0 0 0.2rem black;
+    $card-padding: .75rem;
+    $hover-transition-speed: 0.3s;
+    z-index: 1;
+    isolation: isolate;
+    backface-visibility: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    width: 100%;
+    height: 8rem;
+    background-color: $fighter-card-bg;
+    overflow: hidden;
+    transition: $hover-transition-speed all;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    outline: 4px solid transparent;
+    &:hover,
+    &:focus-visible {
+        outline-color: $focus-outline-color;
+        z-index: 2;
+        box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 40%);
+        @include media-breakpoint-up(md) {
+            scale: 1.02;
+        }
+    }
+    &:active {
+        scale: 1;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    }
+    &::before {
+        content: "";
+        backface-visibility: hidden;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to left, rgba($fighter-card-bg, 1) 0%, rgba($fighter-card-bg, 1) 25%, rgba($fighter-card-bg, 0) 75%);
+        //mix-blend-mode: darken;
+    }
+    &__portrait {
+        backface-visibility: hidden;
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        object-fit: cover;
+        object-position: left center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    &__title {
+        text-align: right;
+        backface-visibility: hidden;
+        margin: 0;
+        padding-left: 1rem;
+    }
+    &__num {
+        //font-family: $font-family-header;
+        font-size: 0.75rem;
+        //color: #FFFDF1;
+        color: #E4CCA0;
+        text-shadow: $fighter-card-text-shadow;
+        //text-shadow: 0 0 0.3rem #bc730e, 0 0 0.3rem #bc730e, 0 0 0.3rem #bc730e, 0 0 0.3rem #bc730e;
+    }
+    &__name {
+        font-weight: 300;
+        font-size: 1.125rem;
+        color: $fighter-card-color;
+        text-shadow: $fighter-card-text-shadow;
+    }
+
+    &__stat {
+        backface-visibility: hidden;
+        z-index: 2;
+        position: absolute;
+        bottom: $card-padding;
+        right: $card-padding;
+        line-height: 1;
+        color: $body-color-lighter !important;
+        text-align: right;
+        .small {
+            font-size: 0.75rem;
+        }
+    }
+    &__badge {
+        backface-visibility: hidden;
+        z-index: 2;
+        position: absolute;
+        top: $card-padding;
+        right: $card-padding;
+        line-height: 1;
+        color: $body-color !important;
+        &::before {
+            content: "\2605"; // &#9733; (star)
+        }
+    }
+
+
+
+    &__divider {
+        z-index: 1;
+        $divider-color: rgba(255, 255, 255, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &::before,
+        &::after {
+            content: "";
+            flex-grow: 0;
+            flex-shrink: 0;
+            display: flex;
+            height: 0.625rem;
+            width: 0.625rem;
+            border: 1px solid $divider-color;
+            background: transparent;
+            border-radius: 50%;
+        }
+        &>span {
+            flex-grow: 1;
+            flex-shrink: 0;
+            display: flex;
+            width: 1px;
+            background-color: $divider-color;
+        }
+        &--horizontal {
+            flex-direction: row;
+            width: 100%;
+            &>span {
+                width: auto;
+                height: 1px;
+            }
+            &:after{
+                display: none;
+            }
+        }
+    }
+
+    &__details {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        min-width: 30%;
+        padding-left: 0.5rem;
+        //padding-block: 0.25rem;
+        //background: black;
+        table {
+            th, td {
+                font-size: 0.8rem;
+                text-align: right;
+                text-shadow: $fighter-card-text-shadow;
+                font-variant: small-caps;
+                line-height: 1;
+            }
+            th {
+                color: #E4CCA0;
+            }
+            td {
+                padding-left: 0.5rem;
+                color: $fighter-card-color;
+            }
+        }
+    }
+}

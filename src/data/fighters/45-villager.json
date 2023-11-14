@@ -1,0 +1,65 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Mix up crouch and full hop to force Villager to confront you vertically (his worst aspect).",
+        "You can use Air Slash to force your way in past Lloid if you want.",
+        "Respect D-Smash into F-Smash cheese. Respect Tree.",
+        "Do not shield on top of the sapling or you will get shield broken."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Hits at most ranges but will drop if F-Smash 1 hits"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "kept",
+            "id": "mjuB8eCe-SY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "kept",
+            "id": "f8aopLSCujk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "kept",
+            "id": "MAjwVpRNpUg",
+            "timeStamp": null
+        }
+    ]
+}

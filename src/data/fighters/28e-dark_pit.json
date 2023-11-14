@@ -1,0 +1,42 @@
+{
+    "inheritNotesFrom": "28-pit.json",
+    "notesShort": [],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [15, 17]
+        ],
+        "ftilt": [
+            [26, 32],
+            [38, 48]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": "Spacing is precise."
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": "28-pit.json",
+    "vods": []
+}

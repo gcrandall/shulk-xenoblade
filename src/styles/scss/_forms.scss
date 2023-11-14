@@ -1,0 +1,117 @@
+$input-color: $body-color-lighter;
+$input-highlight-color: $body-color;
+$input-shadow: 0 0.15rem 0.15rem rgba(0, 0, 0, 0.2);
+
+$input-height: 2.5rem;
+
+.input-container {
+    position: relative;
+    margin-top: 1.25rem;
+    display: flex;
+    .input-label {
+        position: absolute;
+        top: -1.25rem;
+        left: 0;
+    }
+    .input-field {
+        flex-grow: 1;
+        flex-shrink: 1;
+        &+.btn {
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+    }
+    .field-icon {}
+}
+
+.input-label {
+    font-size: 0.75rem;
+    height: 1rem;
+    width: 100%;
+    margin-left: 0.5rem;
+    text-align: left;
+    color: $input-color;
+}
+
+.input-field {
+    font-family: $font-family-base;
+    outline: none;
+    border: 2px solid $card-border;
+    border-radius: math.div($input-height, 2);
+    background-color: #665C53;
+    color: $input-color;
+    box-shadow: $input-shadow;
+    transition: all 0.3s;
+
+    line-height: 1;
+    padding: 0.3rem 1rem;
+    height: $input-height;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    //outline: 2px solid transparent;
+
+    &:hover,
+    &:active,
+    &:focus-visible {
+        color: $input-highlight-color;
+        border-color: $input-highlight-color;
+        outline-color: $focus-outline-color;
+    }
+
+    option {
+        color: $input-color;
+    }
+}
+
+.btn {
+    isolation: isolate;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $input-height;
+    background-color: $header-color;
+    color: #FFFFFF;
+    border: 2px solid #A49687;
+    border-radius: math.div($input-height, 2);
+    box-shadow: $input-shadow;
+    transition: all 0.3s;
+    outline-color: transparent;
+    text-shadow: 0 0 3px black;
+    overflow: hidden;
+    text-decoration: none !important;
+    padding-inline: 1rem;
+    &::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: 0.3s all;
+        background-color: #a1c942;
+        background: linear-gradient(0deg, rgba(161,201,66,1) 0%, rgba(122,149,55,1) 100%);
+        opacity: 0;
+    }
+    &:hover,
+    &:focus-visible {
+        color: #FFFFFF;
+        border-color: #FFFFFF;
+        &::before {
+            opacity: 1;
+        }
+        //scale: 1.05;
+        //box-shadow: inset 0 0 4px $focus-outline-color, 0 0 0.7rem $focus-outline-color;
+    }
+    &:active {
+        scale: 0.975;
+    }
+    
+}
+
+button {
+    background-color: transparent;
+}

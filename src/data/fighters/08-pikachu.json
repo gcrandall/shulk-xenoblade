@@ -1,0 +1,57 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Their rising aerials have falling aerial safety; play the mix up game and don't be hasty with punishes.",
+        "Protect your double jump or risk getting gimped.",
+        "In general, hold out to avoid taking too much damage from combos/grab confirms.",
+        "Read Go1den_Berry's [Anti-Pikachu Shulk Notes](https://docs.google.com/document/d/1lycKYXSFlwkyIm2jgkZf64q5Ro_16xhxtGtXpDA5-KI/edit?usp=sharing) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 35]
+        ],
+        "ftilt": [
+            [23, 43]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "ESAM",
+            "id": "VV3WhnSFbpo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Enki",
+            "id": "-SQvHcNOqJQ",
+            "timeStamp": null
+        }
+    ]
+}

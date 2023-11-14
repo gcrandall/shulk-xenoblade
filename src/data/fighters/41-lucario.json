@@ -1,0 +1,65 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Kill him early to avoid aura cheese.",
+        "You die extremely early to aura B-Air and Side-B. Respect them.",
+        "Make a 50/50 between trying to 2-frame and running back to cover ledge. Attempted 2-frames bait Up-B past ledge, so threaten first then dash back and shield.",
+        "Smash art is a great way to escape F-air and U-air combos, limits the damage from 60% down to around 30%. Use it."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [15, 15]
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "If F-Smash 1 hits first, he falls out of F-Smash 2."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "tamakasu",
+            "opponent": "gachipi",
+            "id": "hSTpZ7b0YWw",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Lumi",
+            "id": "1p6_Uz13Mvk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "Armadillo",
+            "id": "tXGQUfL3rbM",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "inheritNotesFrom": "33-squirtle.json",
+    "notesShort": [
+        
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            [38, 43]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any Range"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": "33-squirtle.json",
+    "vods": []
+}

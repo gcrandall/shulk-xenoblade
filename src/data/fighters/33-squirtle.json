@@ -1,0 +1,98 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Shulk walls out Squirtle hard with D-Tilt and aerials. Rack damage and force him to switch off or die at 60.",
+        "Make sure you snap to ledge so you don't die to water gimps.",
+        "Smash art in hitstun can be a good option to escape low percent combos, but beware of B-Air sending you too far off stage.",
+        "Camp Ivy. You can Air Slash razor leaf on block on reaction if he's close enough.",
+        "You can punish a ledge drop Vine Whip with Air Slash OoS.",
+        "Chase Ivysaur with Jump art edgeguards.",
+        "Charizard will demolish you for hitting his shield. Play patient and don't land on him, especially with F-Air.",
+        "When edgeguarding, remember Up-B has super armor and cover for Flare Blitz.",
+        "If you get grabbed by the ledge, be ready to turn on shield art to avoid B-Throw into B-Air killing you."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 20]
+        ],
+        "ftilt": [
+            [33, 42]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "Tenni",
+            "id": "bn1kCfySm9E",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "Ned",
+            "id": "QDHkdKddonI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Atelier",
+            "id": "5p7qyMxoMrc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Atelier",
+            "id": "Xs150Q98mcs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Pandarian",
+            "id": "V8_Z1DfVbec",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Spanky",
+            "id": "hq2X-fTE_Kc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "ShiNe",
+            "id": "csZ8lOoB-Lc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Natsu",
+            "id": "XbMVjbA_aYI",
+            "timeStamp": null
+        }
+    ]
+}

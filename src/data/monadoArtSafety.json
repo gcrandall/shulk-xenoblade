@@ -1,0 +1,184 @@
+{
+    "Jab 1": {
+        "Vanilla": [-17],
+        "Speed": [-17],
+        "Shield": [-18],
+        "Buster": [-16],
+        "Smash": [-18]
+    },
+    "Jab 2": {
+        "Vanilla": [-25],
+        "Speed": [-26],
+        "Shield": [-26],
+        "Buster": [-25],
+        "Smash": [-26]
+    },
+    "Jab 3": {
+        "Vanilla": [-32, -31],
+        "Speed": [-34, -32],
+        "Shield": [-34, -33],
+        "Buster": [-31, -30],
+        "Smash": [-35, -33]
+    },
+    "F-Tilt": {
+        "Vanilla": [-19, -20],
+        "Speed": [-22, -23],
+        "Shield": [-24, -25],
+        "Buster": [-14, -16],
+        "Smash": [-26, -27]
+    },
+    "U-Tilt": {
+        "Vanilla": [-18, -19],
+        "Speed": [-21, -19],
+        "Shield": [-22, -21],
+        "Buster": [-15, -14],
+        "Smash": [-24, -22]
+    },
+    "D-Tilt": {
+        "Vanilla": [-12, -13],
+        "Speed": [-14, -15],
+        "Shield": [-16, -16],
+        "Buster": [-9, -11],
+        "Smash": [-17, -18]
+    },
+    "Dash Attack": {
+        "Vanilla": [-16, -18],
+        "Speed": [-19, -20],
+        "Shield": [-21, -22],
+        "Buster": [-12, -14],
+        "Smash": [-23, -24]
+    },
+    "F-Smash": {
+        "Vanilla": [-35, -36],
+        "Speed": [-37, -38],
+        "Shield": [-39, -39],
+        "Buster": [-32, -33],
+        "Smash": [-40, -40]
+    },
+    "U-Smash": {
+        "Vanilla": [-45, -28],
+        "Speed": [-46, -30],
+        "Shield": [-46, -32],
+        "Buster": [-44, -25],
+        "Smash": [-47, -33]
+    },
+    "D-Smash 1": {
+        "Vanilla": [-56],
+        "Speed": [],
+        "Shield": [],
+        "Buster": [-54],
+        "Smash": []
+    },
+    "D-Smash 2": {
+        "Vanilla": [-52],
+        "Speed": [],
+        "Shield": [],
+        "Buster": [-49],
+        "Smash": []
+    },
+    "D-Smash 3": {
+        "Vanilla": [-47],
+        "Speed": [],
+        "Shield": [],
+        "Buster": [-45],
+        "Smash": []
+    },
+    "D-Smash 4": {
+        "Vanilla": [-41, -42],
+        "Speed": [],
+        "Shield": [],
+        "Buster": [],
+        "Smash": []
+    },
+    "D-Smash 5": {
+        "Vanilla": [-36, -36],
+        "Speed": [],
+        "Shield": [],
+        "Buster": [],
+        "Smash": []
+    },
+    "N-Air (SH)": {
+        "Vanilla": [-3, -3],
+        "Speed": [-3, -3],
+        "Shield": [-4, -4],
+        "Buster": [-2, -2],
+        "Smash": [-4, -4]
+    },
+    "N-Air (FH)": {
+        "Vanilla": [-2, -3],
+        "Speed": [-3, -3],
+        "Shield": [-3, -4],
+        "Buster": [-1, -2],
+        "Smash": [-4, -4]
+    },
+    "F-Air (SH)": {
+        "Vanilla": [-7, -7],
+        "Speed": [-7, -7],
+        "Shield": [-8, -8],
+        "Buster": [-6, -6],
+        "Smash": [-8, -8]
+    },
+    "F-Air (FH)": {
+        "Vanilla": [-6, -7],
+        "Speed": [-7, -7],
+        "Shield": [-7, -8],
+        "Buster": [-6, -6],
+        "Smash": [-8, -8]
+    },
+    "B-Air (SH)": {
+        "Vanilla": [-7, -8],
+        "Speed": [-8, -8],
+        "Shield": [-8, -9],
+        "Buster": [-6, -7],
+        "Smash": [-9, -9]
+    },
+    "B-Air (FH)": {
+        "Vanilla": [-6, -7],
+        "Speed": [-7, -8],
+        "Shield": [-8, -8],
+        "Buster": [-5, -6],
+        "Smash": [-9, -9]
+    },
+    "U-Air (SH)": {
+        "Vanilla": [-6, -5, -6],
+        "Speed": [-7, -6, -6],
+        "Shield": [-7, -6, -7],
+        "Buster": [-6, -4, -5],
+        "Smash": [-7, -7, -7]
+    },
+    "U-Air (FH)": {
+        "Vanilla": [-6, -5, -5],
+        "Speed": [-6, -6, -6],
+        "Shield": [-7, -6, -6],
+        "Buster": [-5, -4, -5],
+        "Smash": [-7, -7, -7]
+    },
+    "D-Air (SH)": {
+        "Vanilla": [-11, -10, -10],
+        "Speed": [-12, -11, -11],
+        "Shield": [-12, -11, -11],
+        "Buster": [-11, -9, -9],
+        "Smash": [-12, -12, -12]
+    },
+    "D-Air (FH)": {
+        "Vanilla": [-11, -9, -10],
+        "Speed": [-11, -10, -11],
+        "Shield": [-12, -11, -11],
+        "Buster": [-10, -8, -9],
+        "Smash": [-12, -12, -12]
+    },
+    "Back Slash (Startup)": {
+        "Vanilla": [-39, -40, -35, -36],
+        "Speed": [-42, -42, -39, -40],
+        "Shield": [-43, -44, -41, -42],
+        "Buster": [-36, -37, -30, -32],
+        "Smash": [-45, -45, -44, -44]
+    },
+    "Back Slash (Landing)": {
+        "Vanilla": [-29, -30, -25, -27],
+        "Speed": [-32, -32, -29, -30],
+        "Shield": [-33, -34, -31, -32],
+        "Buster": [-26, -27, -21, -23],
+        "Smash": [-35, -35, -34, -34]
+    }
+}

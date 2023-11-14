@@ -1,0 +1,81 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "It is actually worse to have your attack parried than it is to not hit his shield at all. Space off block as a default style.",
+        "Tatsu only hits shield once. Have a strong punish planned on block.",
+        "In general, hold straight out in disadvantage."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 25]
+        ],
+        "ftilt": [
+            [4, 51]
+        ],
+        "fsmash": [
+            [16, 22]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Vendetta",
+            "id": "IS5CxjHEN2Q",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Asimo",
+            "id": "lSIoavWcrAk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Asimo",
+            "id": "VdtJD5AtqOA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "Nito",
+            "id": "f2ehBjEXOaE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "AndresFn",
+            "id": "vDn2q-3k8Mo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Asimo",
+            "id": "p18JpI-dXDI",
+            "timeStamp": 13985
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Min Min players will often focus on using rising N-Air to catch your jumps (both at close range and when they cover an oos option). Shield and Air Slash on reaction to the rising N-Air. It's important to anticipate this option because it's hard to Up-B on time with only raw reaction.",
+        "Her platform pressure is relatively subpar. Use platforms to get some breathing room when your shield is low, and also to recharge arts",
+        "Use frontslash in neutral as a way to mix up your landings to force her smash attacks and tilts to whiff.",
+        "Her tether is awful; F-Air her once and she dies.",
+        "Backslash as a recovery option tends to clank with Min Min's 2-frame options.",
+        "Her moves have a ton of lag. Speed art is very good at breaking her zone.",
+        "Hitting Min Min with Backslash while she has a tilt out and is walking backwards will register as hitting her back.",
+        "Jump Art is critical to have for disadvantage, but it can also make neutral a lot easier. This is our best art in the matchup so be sure to utilize it intelligently.",
+        "Prioritize stage control over damage."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 11],
+            [16,39]
+        ],
+        "ftilt": [
+            [28,50]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "ProtoBanHam",
+            "id": "RknrnC75kzo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Omuatsu",
+            "id": "rTBSvThegos",
+            "timeStamp": "4298"
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Justice",
+            "id": "VBnl0S5cxXQ",
+            "timeStamp": "4298"
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Justice",
+            "id": "iluU2TfGkxw",
+            "timeStamp": "4298"
+        }
+    ]
+}

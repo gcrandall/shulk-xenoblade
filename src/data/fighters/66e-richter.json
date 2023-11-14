@@ -1,0 +1,41 @@
+{
+    "inheritNotesFrom": "66-simon.json",
+    "notesShort": [],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 26]
+        ],
+        "ftilt": [
+            [16, 24],
+            [28, 51]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Precise. Hits at roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": "66-simon.json",
+    "vods": []
+}

@@ -1,0 +1,58 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "B-Air is formidable but not unbeatable. Force her to B-Air early with jumps, then crouch and D-Tilt to force her to B-Air late. Both strategies are used together to mix up your walling.",
+        "Lazy techs in place or roll aways get you rollered. Miss a tech on purpose if they get roller happy to avoid this trap.",
+        "Inkling's Booyah (U-Throw -> U-Air) percent on Shulk is actually pretty good. Make sure you have Shield art **from 114-137%**. This window changes to **109-134%** if in Jump or Buster art."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 12]
+        ],
+        "ftilt": [
+            [26, 29]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Ranges are very generous during the ledge animation (standard during normal hang)"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": "Spacing is precise"
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Shirayuki",
+            "id": "9tuOenGzmTk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Cosmos",
+            "id": "LcuhbUEd0Jk",
+            "timeStamp": null
+        }
+    ]
+}

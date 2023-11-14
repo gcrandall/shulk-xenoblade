@@ -1,0 +1,13 @@
+.c-value-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &--true {
+        color: #83c9c9;
+    }
+    &--false {
+        color: #f48771;
+    }
+}

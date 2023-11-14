@@ -1,0 +1,59 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Toad and turnip are effective at edgeguarding Shulk, so be precise with your recoveries.",
+        "She cannot deal with you being below her, so focus on juggling.",
+        "Use D-Tilt and aerials to wall her, as you drastically outrange her.",
+        "You're already in a worse position against this character if you're shielding against them due to their absurd pressure and float mixups that can't be reacted to.",
+        "Take note of them holding turnip in shield, as that's their main way to contest the range that Shulk has with turnip OoS."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Samsora",
+            "id": "r-6Z2SZNw-U",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Razo",
+            "id": "o18VE6hRVRE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Ling Ling",
+            "id": "XT-j8oD9W8g",
+            "timeStamp": null
+        }
+    ]
+}

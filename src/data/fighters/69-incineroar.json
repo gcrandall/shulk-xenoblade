@@ -1,0 +1,81 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character has poor mobility; focusing on spacing and using your sword as a wall is crucial to winning.",
+        "If he recovers high, you can Air Slash him to force him back offstage with fewer options.",
+        "Mashing too much will get your attacks revenged and you'll die at 50 to a supercharged Alolan Whip. Be patient."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [5, 51]
+        ],
+        "ftilt": [
+            [24, 54]
+        ],
+        "fsmash": [
+            [38, 54]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ramses",
+            "opponent": "Skyjay",
+            "id": "PP5q29B0E7g",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Skyjay",
+            "id": "R2LOsJY9Vi8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Mega",
+            "id": "V6XJOqD8TX4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "Skyjay",
+            "id": "Yuxb1f2Cd9c",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "JTreezy",
+            "id": "S-smb7RLCjY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Mishia",
+            "id": "-pHmz4jL25Y",
+            "timeStamp": null
+        }
+    ]
+}

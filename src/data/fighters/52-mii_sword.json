@@ -1,0 +1,69 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Abuse your better range/speed against them.",
+        "Learn the timings for getting past and punishing tornado and chakram.",
+        "D-Air bodies Shulk's recovery so be aware.",
+        "They struggle to get in if we play defensive and grounded. Their F-Air is frame 12 and doesn't auto cancel, and N-Air is easy to whiff punish.",
+        "Watch out for Shuriken or the dash Side-B if they try to get in by overshooting.",
+        "Gimp them if they don't have mobility specials other then Up-B. Vision or ledge slip aerials work well.",
+        "Save Shield art for U-Air/Up-B confirms and they can't kill you."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 13],
+            [15, 36]
+        ],
+        "ftilt": [
+            [27, 49]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Myollnir",
+            "id": "EtEg9t4wIRo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "NickSF",
+            "id": "EUhHFi-NRBs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "NickSF",
+            "id": "0n7B7LZ7guw",
+            "timeStamp": null
+        }
+    ]
+}

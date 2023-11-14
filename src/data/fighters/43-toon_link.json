@@ -1,0 +1,72 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character is really fast on the ground but enters a lot of lag when he uses special moves. Camp him until you have Speed, then use Speed to rush him down.",
+        "Ledge slip Air Slash beats Toon Link's recovery.",
+        "Up-B OoS is pretty minus on block if you shield it. Have a punish prepared.",
+        "Consider throwing them off stage with B-Throw as it faces them away from the stage, making it harder to use their Z-Air tether recovery."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            [25, 25],
+            [36, 38]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise. Roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Marvelous Marco",
+            "id": "ry6l8T43DaQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "JoJoDaHoBo",
+            "id": "T4z1GEpRTqg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Obmcbob",
+            "id": "z96APB6BLCs",
+            "timeStamp": 4117
+        },
+        {
+            "shulk": "Vedhan",
+            "opponent": "Mika",
+            "id": "3iqAqTd95_g",
+            "timeStamp": 4117
+        }
+    ]
+}

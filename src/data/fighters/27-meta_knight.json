@@ -1,0 +1,67 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "D-Tilt beats this character, spam it.",
+        "Dash attack beats this character if he tries to camp D-Tilt.",
+        "Dimensional Cape has no lag, but the slash has a billion lag. Have a lethal punish prepared for when Cape Slash hits your shield.",
+        "Meta Knight struggles to contest us for setting up on him with spaced N-Airs. Abuse N-Air in place to slow the game pace down and force him to take risks to contest us.",
+        "Read Uzair's [Meta Knight Write-Up](https://drive.google.com/file/d/1St8jVJJLmoMbJSweoNqUqksGSRA-CjbF/view) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 43]
+        ],
+        "ftilt": [
+            [1, 18],
+            [24, 43]
+        ],
+        "fsmash": [
+            [14, 18]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "At some ranges, F-Smash 1 also connects."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Dusty Carpet",
+            "opponent": "Bonk!",
+            "id": "Ns-PUYG01U4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Slither2Hunter",
+            "id": "pf4y2sf8LlY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Jsan",
+            "id": "5Qfv-K1uX0A",
+            "timeStamp": null
+        }
+    ]
+}

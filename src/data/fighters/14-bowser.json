@@ -1,0 +1,71 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Double dialing is an effective way to get Bowser to use Up-B OoS less as a reflex, giving you more room to pressure him.",
+        "Jump and Buster arts mean you take 30+ from Side-B or stray hits; beware.",
+        "Bowser is fat; D-Airs should be a key part of your punishment.",
+        "Read Tanark's translation of [Rizeasu's Bowser Write-Up](https://docs.google.com/document/d/15mfnuupiz_oCfIdbjFoucKxEMDIHy2uFAratsfGF-QQ/edit) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 59]
+        ],
+        "ftilt": [
+            [10, 59]
+        ],
+        "fsmash": [
+            [27, 59]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Hero",
+            "id": "Hbqc-aurL_k",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Leon",
+            "id": "eSMBCrf1R7s",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Leon",
+            "id": "eJZKbLH9bn8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Morbid",
+            "id": "WmSUJzFbqPY",
+            "timeStamp": null
+        }
+    ]
+}

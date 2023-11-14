@@ -1,0 +1,97 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use B-Air and reverse N-Air to wall her out. Her Side-B loses to jump-ins, so keep that in mind.",
+        "Watch out for her Neutral-B and D-Air when you're offstage.",
+        "D-Air destroys their recovery.",
+        "Her out-of-shield options are poor, so pressure her shield as much as you can.",
+        "Her U-Throw won't kill you, but it sends in a favorable position for her."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [26, 47]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "MkLeo",
+            "id": "UqO3EFOBO1M",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "MkLeo",
+            "id": "MMG0hfhcks0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Cosmos",
+            "id": "5AYRaGXUCv4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "FriskyCissin",
+            "id": "dhgcr9_7cF4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "Mr. R",
+            "id": "B0-Ia5iXbns",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Luminous",
+            "id": "zMu2GH9zGmw",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Shady",
+            "id": "4YMl00l_1kc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Vedhan",
+            "opponent": "Messypack",
+            "id": "J3YYC_ngdpg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "ヤドン",
+            "id": "ymY6ydDt1WQ",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character outranges you. Play patient and allow them to expend mana without taking damage.",
+        "They are very vulnerable to you offstage if they don't pull Zoom from menu. Be ready to edgeguard them with Air Slash and D-Air.",
+        "You will take 40% if you get hit in Jump/Buster art. Beware.",
+        "With Zoom priming, Hero will almost always get Zoom offstage. He must be outside the camera bounds for the increased chance. You should opt to use B-Throw or U-Throw when he's at the percent where he can just zoom back.",
+        "Oomph + Psych up will break your shield."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            [27, 34],
+            [39, 49]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": "Catches roll, but he falls out of U-Smash 2"
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Precise spacing. Hits at a little less than roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ranger",
+            "opponent": "Vivi",
+            "id": "dlf_qacl4yo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Akakikusu",
+            "id": "F1SUadEPv9U",
+            "timeStamp": 6161
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Akakikusu",
+            "id": "YXnY8GilqTc",
+            "timeStamp": 10350
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Akakikusu",
+            "id": "L1WkB-p8Shc",
+            "timeStamp": 7196
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Atelier",
+            "id": "uV_ps_sypT4",
+            "timeStamp": 10423
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Pressure his shield safely or get hit by N-Air OoS.",
+        "Miss a tech against N-Air or D-Tilt and you risk dying.",
+        "Smash art starts breaking DJ armor around 60% with aerials, gimp him."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [28, 44]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Yoshidora",
+            "id": "IiPQdmgCTog",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Dynomyte",
+            "id": "LlePaAsXwMc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Yoshidora",
+            "id": "QHkhRC5dx6Y",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Pharaoh",
+            "id": "RCqPjs0YS6E",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Pharaoh",
+            "id": "2qWTNZrvsyw",
+            "timeStamp": null
+        },
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "SCHMIXTAPE",
+            "id": "sTU7MRQfZ98",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "Burst",
+            "id": "EYUGOn4N2XU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Vedhan",
+            "opponent": "Snoop",
+            "id": "jMSWyGEDeB8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Raptor",
+            "id": "mvzwLvcylT4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Raptor",
+            "id": "WWkNycDbXmk",
+            "timeStamp": null
+        }
+    ]
+}

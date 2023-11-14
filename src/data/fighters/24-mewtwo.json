@@ -1,0 +1,57 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "His play pattern is very similar to [Samus](/details/samus). Get used to entering his bubble and staying just outside of reach because that's how the matchup should be played.",
+        "No hitbox on his recovery can be exploited at ledge, but beware him going high and reversaling you.",
+        "Respect his ledge trapping, it's really solid. "
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 9],
+            [12, 21]
+        ],
+        "ftilt": [
+            [34, 43]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Coyors",
+            "opponent": "Zenkai",
+            "id": "pKmFe7ju1XY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Zenkai",
+            "id": "n1g38tWu7nc",
+            "timeStamp": null
+        }
+    ]
+}

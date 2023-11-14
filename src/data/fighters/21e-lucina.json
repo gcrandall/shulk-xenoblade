@@ -1,0 +1,69 @@
+{
+    "inheritNotesFrom": "21-marth.json",
+    "notesShort": null,
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [25, 29],
+            [36, 40]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise. Roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Protobanham",
+            "id": "DiN-mYL96ok",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Protobanham",
+            "id": "RknrnC75kzo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Mr. E",
+            "id": "0PTvlzxtcvY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Psionic",
+            "id": "Jnm6jydDP34",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Mr. E",
+            "id": "Q3QVjjgYljg",
+            "timeStamp": null
+        }
+    ]
+}

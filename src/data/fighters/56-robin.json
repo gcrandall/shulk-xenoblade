@@ -1,0 +1,84 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Do not block Arcthunder. Jump or roll.",
+        "You cannot jump in from a distance. Approach first before jump-ins to avoid getting anti-aired.",
+        "A well timed roll goes through Arcfire spam at ledge unless they have pixel perfect spacing, which is extremely rare. Mistime it and you'll get jabbed back to the ledge.",
+        "Remember that Robin can no longer spam Thunder and Elthunder once Arcthunder/Thoron are charged. Shield more against the first two. Move more against the second two.",
+        "Arcfire can prevent you from changing arts by keeping you in hitlag.",
+        "Robin's aerials are amazing at stuffing you out, but B-Air will completely outrange them and flat out beat any of their projectiles aside from Thoron. "
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            [26, 48]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Synergy",
+            "id": "JfXNwn0Jkx8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Grandmaster",
+            "id": "h-msnW_wr5s",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coyors",
+            "opponent": "Rhythm",
+            "id": "KZNgMpe1tW8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "Whisky",
+            "id": "Y9IzYZis_68",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Influnnt",
+            "id": "5EaJeBwmiXg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Vedhan",
+            "opponent": "Synergy",
+            "id": "j3UUxtUgjN8",
+            "timeStamp": null
+        }
+    ]
+}

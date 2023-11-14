@@ -1,0 +1,128 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use D-Tilt and your aerials to wall out Mario.",
+        "Aggressively edgeguard and/or 2-frame his recovery.",
+        "Space Air Slash carefully to avoid getting gimped by water or 2-framed by dash attack."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 8],
+            [15, 36]
+        ],
+        "ftilt": [
+            [27, 49]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Kurama",
+            "id": "vMOHmCo6d7k",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Dark Wizzy",
+            "id": "hLLQ5muVivA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Dark Wizzy",
+            "id": "z9FrlLo-fXI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Zenyou",
+            "id": "5liPgF8TC1s",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Tiny Toasters",
+            "id": "g9_JTl2-LFg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Kurama",
+            "id": "xL5pHAU2fZU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kinaji",
+            "opponent": "Unfezant",
+            "id": "7UKdErCIdLU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "NotBrayden",
+            "id": "_fOWXiJiNbs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "NotBrayden",
+            "id": "7t5Pa9b5TA0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Zenyou",
+            "id": "dpVYgYLF2JA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Zenyou",
+            "id": "KtTA6zcnD58",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "Mocra",
+            "id": "1vFAvm9Qr4I",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "Dominator",
+            "id": "qH5XduWU9GI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "スノー",
+            "id": "RFL1zrVtSug",
+            "timeStamp": null
+        }
+    ]
+}

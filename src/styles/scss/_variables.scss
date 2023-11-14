@@ -1,0 +1,81 @@
+//--------------------------------------------------
+// COLORS
+//--------------------------------------------------
+
+$primary: #cee07e;
+
+$body-bg: #4B4540;
+$card-bg: #4B4540;
+
+$header-color: #2C2A28;
+$header-border-color: #B2AA9E;
+
+$light-ui-bg: #f3f0e1;
+$light-ui-text: #433c37;
+
+$card-border: #B2AA9E;
+$card-bg-brown: #4B4540;
+$card-bg-purple: #5E5172;
+$card-bg-teal: #4E6362;
+
+$body-color: rgba(255, 255, 255, 1);
+$body-color-lighter: rgba(255, 255, 255, 0.8);
+
+$modal-content-color:               $light-ui-text;
+$modal-content-bg:                  $light-ui-bg;
+$modal-content-border-color:        rgba(255, 255, 255, 0.3);
+$modal-content-border-width:        0;
+$modal-content-border-radius:       5px;
+$modal-content-inner-border-radius: 0;
+
+$modal-backdrop-bg:                 #000000;
+$modal-backdrop-opacity:            1;
+
+$yes-color: #83c9c9;
+$no-color: #f48771;
+$depends-color: #FF9800;
+
+$focus-outline-color: #ffff45;
+
+
+//--------------------------------------------------
+// TYPOGRAPHY
+//--------------------------------------------------
+
+$font-size-root:              null !default; // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+
+$font-family-base: a-otf-ud-shin-maru-go-pr6n, sans-serif;
+$font-family-header: 'Headland One', serif;
+
+$link-color:                              $primary;
+$link-decoration:                         none;
+$link-shade-percentage:                   0%;
+$link-hover-decoration:                   underline;
+
+
+//--------------------------------------------------
+// SPACING
+//--------------------------------------------------
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 2000px
+);
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px,
+    xxxl: 1600px
+);
+
+$header-height-mobile:  3.75rem;
+$header-height:         5rem;

@@ -1,0 +1,65 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use N-Air and U-Tilt to swat away Gordo.",
+        "If you use F-Air to ledge trap, use a different move like Air Slash to kill him. Stale F-Air doesn't kill him for a long time even in Smash art, especially if you land the tipper.",
+        "A lot of his pressure is very unsafe; have good D-Air punishment ready to go on unsafe moves.",
+        "Read Peli's [Anti-Dedede Guide](https://www.twitlonger.com/show/n_1srohl0) for more details"
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 57]
+        ],
+        "ftilt": [
+            [0, 57]
+        ],
+        "fsmash": [
+            [8, 57]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Cor",
+            "id": "pvD-gWI7lKo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "ZAKI",
+            "id": "zer-bYw9r2Y",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Ling",
+            "id": "dX_r4tq8aM8",
+            "timeStamp": null
+        }
+    ]
+}

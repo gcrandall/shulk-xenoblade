@@ -1,0 +1,64 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character does a lot of damage over time. Learn how to break off pikmin quickly.",
+        "If you get a chance, kill purples to slow him down.",
+        "They nerfed it, but he is still pretty safe after U-Smash on shield, so you should just respect it."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            [23, 43]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range. Can hit F-Smash 1 which will connect into F-Smash 2."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "TeemoXC",
+            "opponent": "MFA",
+            "id": "c_RlEvfX5JU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Shuton",
+            "id": "PCPFWqog6ko",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Myran",
+            "id": "KWUe_X4yF0o",
+            "timeStamp": null
+        }
+    ]
+}

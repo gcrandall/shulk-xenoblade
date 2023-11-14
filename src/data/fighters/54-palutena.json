@@ -1,0 +1,95 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "All of her buttons are top tier, but can only do one thing at a time. Her combo buttons are not good neutral buttons, and her big hitboxes require her to jump and drift without pressing any buttons. Use your movement to force her to overextend or stuff her empty jumps.",
+        "Mix up beefy and snapped Air Slash to deal with counter/D-Tilt at ledge.",
+        "Be ready to react to dash attack and N-Air on block with Air Slash; they are true, mostly.",
+        "Read Vedhan's [Palutena Write-Up](https://docs.google.com/document/d/1BBugC-tZ7CFJ_KMI1ebB9wshQNMAuanQG5Im9qfJhlI/edit) for more details."
+        ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 46]
+        ],
+        "ftilt": [
+            [25, 35]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Very precise"
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Raflow",
+            "id": "FCqtklpczsQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Gen",
+            "id": "Lb3D3FR_Qhc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Nairo",
+            "id": "97ktlsGKQ7I",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Spiro",
+            "id": "Ow3jbhLKVM8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Cee",
+            "id": "t2hRmXTZQrc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Dabuz",
+            "id": "F3KTfljPdzg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Chase",
+            "id": "CBhCYVh1ZB8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Atreus",
+            "id": "-3dYRxF0DRY",
+            "timeStamp": null
+        }
+    ]
+}

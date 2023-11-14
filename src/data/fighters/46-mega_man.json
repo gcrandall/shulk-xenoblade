@@ -1,0 +1,70 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Lemons will turn your character around and cancel aerials mid start up. Beware.",
+        "Use your sword to break lemons to approach, and THEN try to hit him. Doing both just gets you hit.",
+        "Be extremely respectful of FH DJ B-Air to cover high recoveries. It bodies Shulk."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 50]
+        ],
+        "ftilt": [
+            [9, 50]
+        ],
+        "fsmash": [
+            [25, 45]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Precise. Hits from roll distance."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Kameme",
+            "id": "1ZfTraSlLME",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Repo",
+            "id": "Vjbb8RC22fE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Peabnut",
+            "id": "-LQZOmVDsXA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "MPG",
+            "id": "LUft4wlEeaI",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Shield art is effective against his Shoryuken confirms. Don't waste it.",
+        "Use tipper D-Air to 2-frame. F-Air struggles to contest Shoryuken.",
+        "Do not let shotos hit your shield. Just leave if they approach you with a N-Air on block."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 26]
+        ],
+        "ftilt": [
+            [4, 51]
+        ],
+        "fsmash": [
+            [16, 22]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Jahzz0",
+            "id": "sms0aOrKNIQ",
+            "timeStamp": "459"
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "DieG0d",
+            "id": "59liugpFDi0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Vai",
+            "id": "i-IkVyLAy0g",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Jahzz0",
+            "id": "7EUcXqY5g0I",
+            "timeStamp": null
+        }
+    ]
+}

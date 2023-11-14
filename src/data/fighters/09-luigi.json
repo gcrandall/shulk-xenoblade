@@ -1,0 +1,86 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Luigi wants to play grounded to get in. Force him to jump with D-Tilt spam.",
+        "Play patiently and have a punish planned for bad Luigi cyclones.",
+        "If you're going to edgeguard Luigi, assume he won't misfire. There is no room for fear offstage."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [15, 32]
+        ],
+        "ftilt": [
+            [38, 48]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Elegant",
+            "id": "2sH1uwFuyzs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Elegant",
+            "id": "OFeUJ-NNFas",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Elegant",
+            "id": "HCjViu0Te4I",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "GuyGuy",
+            "id": "IuRnlr8R1Z4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "GuyGuy",
+            "id": "iNXBgARs2t0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Blizz",
+            "id": "NexrECNpj3k",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Kiyarash",
+            "id": "x-EU5u5PSu4",
+            "timeStamp": null
+        }
+    ]
+}

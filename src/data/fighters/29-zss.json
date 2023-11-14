@@ -1,0 +1,78 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Aggressively use Shield art to break out of cheese, then force ZSS to approach you by camping when it's on cooldown.",
+        "Everything in this matchup depends on not wasting Shield art at the crucial moment. Don't waste it.",
+        "Respect her aerials, don't respect her tilts.",
+        "Crouching is good in neutral against ZSS F-Air and Z-Air.",
+        "Always keep an eye out for Flip Kick out of disadvantage."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 38]
+        ],
+        "ftilt": [
+            [10, 43]
+        ],
+        "fsmash": [
+            [22,39]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Marss",
+            "id": "4OFqA6d4Nfk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Darkshad",
+            "opponent": "AndrewT",
+            "id": "6lwEHr0v6rI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "WebbJP",
+            "id": "amfZmKcEayo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coyors",
+            "opponent": "Playmaker",
+            "id": "aPM3PPqPhV8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nazier",
+            "opponent": "Marss",
+            "id": "R03zzzzdkrA",
+            "timeStamp": null
+        }
+    ]
+}

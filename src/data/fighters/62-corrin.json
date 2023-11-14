@@ -1,0 +1,85 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use Smash art to help break out of her long and damaging combos.",
+        "Her mobility is poor. Use Speed art to open her up and find your opportunities.",
+        "Their up-b has intangibility at the start. If you cannot intercept it before it will reach ledge, it is not worth contesting.",
+        "Beware F-Smash shield break cheese. If caught, shield SDI away or drop shield and switch to shield art. Shield SDI away will not work if caught using neutral getup at ledge.",
+        "Mix up Up-B and space it to avoid getting 2-framed with Pin. It can also hit ledgehang and kill.",
+        "Corrin can cancel Pin after the initial hit and let you go, leading to a tech chase. A-Landing in this situation will result in Shulk being +31."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 34]
+        ],
+        "ftilt": [
+            [15, 18],
+            [27, 49]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Precise. Hits at roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ranger",
+            "opponent": "Haven",
+            "id": "Oxvq6nRPr7k",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Huevos",
+            "id": "f8ak57PqWI8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Rodnysalt",
+            "id": "lBL6_D1pRdE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Rodnysalt",
+            "id": "CH7EKg92PIg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "Aegis",
+            "id": "ON78w__neLM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "HF",
+            "id": "fIag6qP2rwI",
+            "timeStamp": null
+        }
+    ]
+}

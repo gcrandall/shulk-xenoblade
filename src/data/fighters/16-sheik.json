@@ -1,0 +1,80 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Her shield pressure is strong; focus on whiff punishment and trades.",
+        "Her kill pressure on you sucks; deny her opportunities to kill you early with gimps.",
+        "You are the perfect combo weight for many of her setups; use Shield art judiciously."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 43]
+        ],
+        "ftilt": [
+            [23, 36]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise. Roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ramses",
+            "opponent": "Mr. R",
+            "id": "izP-1ZfqEU8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "Mr. R",
+            "id": "pGBxBcHJDWs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "Mr. R",
+            "id": "B0-Ia5iXbns",
+            "timeStamp": 3013
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Captain L",
+            "id": "m6e3PBcjVfc",
+            "timeStamp": 3013
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "Mr. R",
+            "id": "FTGzWLpwEzQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "WebbJP",
+            "id": "76WF-Ds-j2k",
+            "timeStamp": null
+        }
+    ]
+}

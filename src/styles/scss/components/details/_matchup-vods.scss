@@ -1,0 +1,89 @@
+.c-matchup-vods {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0.45rem;
+    max-height: 32rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow-y: auto;
+
+    &__listing {
+        font-size: 1rem;
+        @include media-breakpoint-down(md) {
+            font-size: 0.75rem;
+        }
+        &:not(:last-child) {
+            margin-bottom: 0.5rem;
+        }
+        a {
+            display: flex;
+            background-color: #fffaee;
+            color: #5d5852;
+            border-radius: 0.5rem;
+            border: 2px solid #aa9d92;
+            overflow: hidden;
+            padding: 0.5rem;
+            outline: 4px solid transparent;
+            transition: 0.3s outline;
+            &:hover,
+            &:focus-visible {
+                outline-color: $focus-outline-color;
+            }
+        }
+        &-img {
+            flex-grow: 0;
+            flex-shrink: 0;
+            @include responsive-properties((
+                width:		(5rem, 13rem, 15rem, 13rem, 15rem)
+            ), (md, xl, xxl, xxxl));
+            img {
+                width: 100%;
+                height: auto;
+                border: 2px solid #aa9d92;
+                border-radius: 0.25rem;
+            }
+        }
+        &-details {
+            flex-grow: 1;
+            flex-shrink: 1;
+            margin-left: 1rem;
+        }
+        &-title {
+            color: #b84c21;
+            font-size: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #c7bfb3;
+            @include media-breakpoint-down(md) {
+                font-size: 0.875rem;
+            }
+        }
+
+        table {
+            th, td {
+                font-weight: normal;
+            }
+            th {
+                color: #a89581;
+                padding-right: 1rem;
+            }
+            td {
+                color: #474038;
+            }
+        }
+
+        &--empty {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5rem;
+            background-color: rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+            border-radius: 0.5rem;
+        }
+        &--submit {
+            .btn {}
+        }
+    }
+}

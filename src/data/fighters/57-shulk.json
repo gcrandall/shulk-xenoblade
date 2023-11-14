@@ -1,0 +1,77 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Shulk can [mash](https://www.youtube.com/watch?v=EadxZ-7wlFg) on himself. Be wary of that.",
+        "This matchup is about art management. Think about which arts counter which, and focus on living longer than the other Shulk.",
+        "Doing Buster D-Throw F-Smash instead of F-Tilt can catch a Shulk trying to double dial the F-Tilt off guard and punish them for it.",
+        "Yes, the other Shulk knows how to punish Backslash to ledge. If you don't, the answer is U-Tilt."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 1],
+            [4, 19]
+        ],
+        "ftilt": [
+            [26, 48]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "DoubleA",
+            "id": "gKH30Ysp_vE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "DarkShad",
+            "opponent": "Ikon",
+            "id": "r-Boiium01Y",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Aqours!",
+            "opponent": "MeB",
+            "id": "7whYeWipS_I",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Dufaux",
+            "id": "r191_4K3jjw",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "fista",
+            "id": "kc-EGv2LIoc",
+            "timeStamp": null
+        }
+    ]
+}

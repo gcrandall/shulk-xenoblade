@@ -1,0 +1,37 @@
+{
+    "inheritNotesFrom": "04-samus.json",
+    "notesShort": null,
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [28, 30]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": "04-samus.json",
+    "vods": null
+}

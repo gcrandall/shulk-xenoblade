@@ -1,0 +1,81 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character likes to use rising N-Air a lot in neutral. Play slow to get them to slow down and give you space.",
+        "Vision beats recovering low with Up-B. Ledge slip it to take his options away.",
+        "Ridley's ability to whiff punish your approach with F-Smash is exceptionally good. Respect that move."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 51]
+        ],
+        "ftilt": [
+            [16, 51]
+        ],
+        "fsmash": [
+            [40, 51]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Soul",
+            "id": "8z07LeX4lfk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "Caden",
+            "id": "MpSLlQct8OI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "Panther",
+            "id": "T_nlHZqCmf4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Carls493",
+            "opponent": "Syameon",
+            "id": "3gTBb5vY170",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "momon",
+            "id": "1Te_vj5Kz4E",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "momon",
+            "id": "ztOjOc19MyY",
+            "timeStamp": null
+        }
+    ]
+}

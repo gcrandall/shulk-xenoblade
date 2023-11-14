@@ -1,0 +1,59 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Mashing can get stuffed by Wonderwing. Be patient in advantage.",
+        "Always take grenade egg away from him if he drops one in front of you. Much better for you to have it than him.",
+        "Respect D-Tilt; it's a cheesy move that outranges yours.",
+        "Read Tanark's translation of [Rizeasu's Banjo Write-Up](https://docs.google.com/document/d/1CtAM6YwpD97-FpVZ_h99ZgVlRy8zwvRKp_-O7yLo3Ug/edit) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 51]
+        ],
+        "ftilt": [
+            [10, 51]
+        ],
+        "fsmash": [
+            [24, 37],
+            [40, 45]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Only hits when he's in his animation. If he's hanging all the way down it will miss at every range except roll distance."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Vader",
+            "id": "vXtgcBmwCcc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Juanpi",
+            "id": "7FH-pnCiY78",
+            "timeStamp": null
+        }
+    ]
+}

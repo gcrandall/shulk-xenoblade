@@ -1,0 +1,80 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Focus on whiff punishment. Only shield as a last resort.",
+        "Be ready to react quickly to avoid N-Air U-Smash kill confirms.",
+        "Kill Fox every time he goes offstage; it's why Shulk wins the matchup."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 42]
+        ],
+        "ftilt": [
+            [23, 42]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Light",
+            "id": "pPZXpoYVq48",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Paseriman",
+            "id": "v9CEeTLOcSc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Light",
+            "id": "Sn2LyLVjbsc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Shangrai",
+            "id": "3j178sGHoT4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "Panther",
+            "id": "EBB5sjAOkuc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Light",
+            "id": "aDNxuulqsCE",
+            "timeStamp": null
+        }
+    ]
+}

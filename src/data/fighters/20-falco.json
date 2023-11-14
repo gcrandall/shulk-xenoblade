@@ -1,0 +1,103 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Falco destroys Shulk if he gets in, so don't let him in. Use aerials and D-Tilt to wall him soundly.",
+        "Lazy Shield art usage will get you comboed anyway; beware.",
+        "Falco has a lot of recovery mixups... until he has to Up-B. Don't let him come back.",
+        "He will laser to get you to play impatiently with your aerials and approaches. Keep that in mind and stay patient.",
+        "F-Air is his main way of stuffing out your aerials. If it hits your shield, wait for the landing hitbox as Up-B OoS will always punish it.",
+        "Learn to SDI against active hop dragdown N-air combos."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 42]
+        ],
+        "ftilt": [
+            [24, 44]
+        ],
+        "fsmash": [
+            [37, 44]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Larry Lurr",
+            "id": "yZrh5UPJx8A",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Larry Lurr",
+            "id": "NxDNzszbY6A",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "MASA",
+            "id": "ubEX9lVObvM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Ludo",
+            "id": "QKP-I_IcwsQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Kofi",
+            "id": "8AdgFLTKUUQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Fizzmint",
+            "opponent": "Ludo",
+            "id": "cH2Gl_YOrOk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Nexus",
+            "id": "d1iNGxk1V-E",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Ludo",
+            "id": "QKP-I_IcwsQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Nexus",
+            "id": "QTWVL-UU86s",
+            "timeStamp": null
+        }
+    ]
+}

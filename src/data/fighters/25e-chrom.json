@@ -1,0 +1,71 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Chrom has less shield safety on block, which means we can use Air Slash more to defend ourself.",
+        "Side-B no longer killing is a huge boon for Shulk in the matchup since [Roy](/details/roy)'s bodies us.",
+        "Use frontslash to invalidate Soaring Slash, and be ready to F-Air any desperation airdodges to ledge to force him to go low.",
+        "Unlike Roy's, when Chrom's jab hits Shulk's ledge hang it can combo into F-Smash."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 48]
+        ],
+        "ftilt": [
+            [8, 48]
+        ],
+        "fsmash": [
+            [22, 48]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Rivers",
+            "id": "TRmn4-wtlXM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Lavish",
+            "id": "EBv2I-0jO1s",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Lavish",
+            "id": "fwKDJR4_INk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Lancelot",
+            "id": "7UMOkekIspg",
+            "timeStamp": null
+        }
+    ]
+}

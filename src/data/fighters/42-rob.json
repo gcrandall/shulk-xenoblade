@@ -1,0 +1,98 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "B-Air landing lag low profiles F-Air; use this to safely enter his zone while still pressuring his shield",
+        "Either learn gyro combos, or toss it up in the air.",
+        "Gain a basic understanding of how gyro at ledge works so you don't die at 40 to noob killers.",
+        "N-Air has a blind spot on the back. R.O.B. will try to drift to force you to deal with front N-air. U-Tilt to intercept his landings. Do this only if you're in advantage",
+        "Read some conversations in the Shulk Discord server about the matchup. Transcriptions are [here](https://docs.google.com/document/d/1m-1feTqZYvDFOmLfK2EIbN13h_1l-Qn_MWc6PaH_UsA/edit?usp=sharing) and [here.](https://docs.google.com/document/d/1SV9BMRDFUH1EXMPKS26msTcTMV1GhG2XF5rvW_nEJQk/edit?usp=sharing)",
+        "Read Vedhan's [R.O.B. Write-Up](https://docs.google.com/document/d/1UHhTSu5oelqm587bx6i3EM9v20MXvi0USCONnxe85II/edit) for more details.",
+        "Consider checking out John Numbers' [Anti-R.O.B. Tech Video](https://youtu.be/BAp0EaDJQaM)"
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 30]
+        ],
+        "ftilt": [
+            [16, 51]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Anathema",
+            "id": "ksXSfLeYZdo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Zackray",
+            "id": "9co5erO5ZDE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Anathema",
+            "id": "tYD6TqtkNlc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "BigBoss",
+            "id": "6YcslE6IvQ4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Joshathan",
+            "id": "IW-LfD3Lupc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "MKBigBoss",
+            "id": "l719NMeddmc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "MKBigBoss",
+            "id": "ZI2LxqsxTVU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "sssr",
+            "id": "TRdAs98vWGc",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use your sword to outrange him so his super armor doesn't matter. N-Air is a great move to abuse in this matchup, as is dash attack.", 
+        "Air Slash can be used on reaction to beat Side-B/Down-B mixups when he recovers. Be attentive and don't make mistakes.",
+        "Shield Art Shulk will die to KO punch around 100 percent or so.",
+        "You can practically Up-B OoS his entire moveset. Don't overly rely on shield though or you risk falling for movement feints and F-Smash shield breaks."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 36]
+        ],
+        "ftilt": [
+            [25, 46]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Kwaz",
+            "id": "cmMkuR52-e4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Bakko",
+            "opponent": "ZekeReds",
+            "id": "Xf3eAlcgXBs",
+            "timeStamp": null
+        }
+    ]
+}

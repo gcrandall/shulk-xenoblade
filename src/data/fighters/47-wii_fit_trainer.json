@@ -1,0 +1,90 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "You outrange this character. Use D-Tilt and your aerials to wall her out and push her offstage.",
+        "Her recovery is not great if you can get past volleyball spike. Go kill her.",
+        "You can beat planking by Air Slashing her regrab.",
+        "You can Up-B OoS the soccer ball if they regrab the ledge, but if they land on stage it's safe.",
+        "Once they get deep breathing, stop interacting until it goes away."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 6]
+        ],
+        "ftilt": [
+            [26, 48]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Sandfall",
+            "opponent": "Varun",
+            "id": "gLDotOhmwPY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Varun",
+            "id": "2fjOVOT_uqo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Aqours!",
+            "opponent": "John Numbers",
+            "id": "NLcbZCrcc6E",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Aqours!",
+            "opponent": "Obwan",
+            "id": "fkJ4TP9FUws",
+            "timeStamp": "3478"
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Varun",
+            "id": "1o3wvMq_A8o",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Varun",
+            "id": "v_UxS6IAkqI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Honda",
+            "id": "JzF8CKC1_rs",
+            "timeStamp": null
+        }
+    ]
+}

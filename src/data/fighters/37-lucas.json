@@ -1,0 +1,65 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Good pressure and hard to edgeguard. Focus on walling him out and using Speed art to get past PK fires.",
+        "You will die at 25 if he D-Airs you offstage. Respect it.",
+        "Play at full hop height or on the ground to open him up since he's floaty.",
+        "Consider throwing them off stage with B-Throw as it faces them away from the stage, making it harder to use their Z-Air tether recovery."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 7]
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "If F-Smash 1 hits first, he falls out of F-Smash 2."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "ChocoTaco",
+            "id": "JG4ufzcwuRs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Sui",
+            "id": "4n6LMbDVy_I",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "JSlayer",
+            "id": "V932L2nMreU",
+            "timeStamp": null
+        }
+    ]
+}

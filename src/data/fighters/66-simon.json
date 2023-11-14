@@ -1,0 +1,83 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Respect their ability to whiff punish landing aerials.",
+        "Up-B OoS is bigger than you think. Space your pressure.",
+        "Be ready to Shield art holy water or risk dying early to F-Smash at ledge.",
+        "Structure your advantage into segments and execute sequentially: Camp without green and blue. Corner carry to ledge then send offstage (do not edgeguard here). Wait at ledge. Land a stray hit at ledge (do not confuse this with hitting him out of ledge hang) and commit if Belmont has to double jump to recover."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 26]
+        ],
+        "ftilt": [
+            [16, 24],
+            [28, 51]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Precise. Hits at roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Coach Ben",
+            "opponent": "JKSonic",
+            "id": "V5WWpuBxK4A",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "JKSonic",
+            "id": "Dr_pos-jB8Q",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "JKSonic",
+            "id": "-RdZ1M98LL8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "JKSonic",
+            "id": "AkrQgMrOIwo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "JKSonic",
+            "id": "99fb7KKfj2k",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "T3 Dom",
+            "id": "zs2hcsANLfg",
+            "timeStamp": null
+        }
+    ]
+}

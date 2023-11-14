@@ -1,0 +1,55 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use D-Tilt and aerials to hard wall him out.",
+        "This character has terrible air mobility. Feel free to camp him out.",
+        "Recover wide if possible to avoid D-Air gimps.",
+        "This matchup is even if Kirby gets Monado Arts. Don't let him.",
+        "His Up-B doesn't snap to ledge until it descends, you can F-Air or Up-B this.",
+        "If he goes super low offstage, he can't cover above him. This can be a free edgeguard or even a foostool."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "JeJaJeJa",
+            "id": "LmchOH3CVfs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "JeJaJeJa",
+            "id": "AWrbgXgDkZ4",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "It's not your turn yet if Link N-Airs your shield; play the mixup game.",
+        "Beware getting reversaled by reverse Up-B at ledge when going for F-Air 2-frames.",
+        "Unsafe shield pressure gets you hit by Up-B OoS.",
+        "You can chase bomb recoveries using Jump art to hit him before he detonates."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 7]
+        ],
+        "ftilt": [
+            [28, 50]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": false
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "T",
+            "id": "BMlW2eJVDOg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Gaku",
+            "opponent": "DeLay",
+            "id": "Ohzits98cSk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Deltaforce",
+            "id": "XpigIcgO7R0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "ADADA",
+            "id": "gpjXj1WQtHk",
+            "timeStamp": null
+        }
+    ]
+}

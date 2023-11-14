@@ -1,0 +1,66 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Focus on a grounded neutral to counteract Dash Attack and Phantom.",
+        "Call her bluff and force her to detonate Phantom early or you hit her. Being scared of Phantom is a lose condition.",
+        "Play around Up-B OoS or die at 80; beware.",
+        "Once Phantom does it's swing, she cannot summon it again until it despawns. This is your time to make a move as her normals are extremely tiny.",
+        "Watch out for F-air or B-Air punishes out of shield. They sting."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Mystearica",
+            "id": "56o2EGKM7lI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Lyric",
+            "id": "-IhJWZCr4kI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Fizzmint",
+            "opponent": "Atlas",
+            "id": "B1-K4WrqyJo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Ven",
+            "id": "nPOoD-vjUtA",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Pit's high ground mobility and lingering hitboxes demolish Shulk if he tries to play slow. Play grounded back and try to get him to overextend.",
+        "Arrows are an extremely effective gimp tool. Hold your jump and beware.",
+        "Pit has a strong grab game at the ledge. DI in kills with U-Air, but holding out can kill early with F-Throw."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [15, 17]
+        ],
+        "ftilt": [
+            [26, 32],
+            [38, 48]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": "Spacing is precise."
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ranger",
+            "opponent": "Luminous!",
+            "id": "12PSAOIhry0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "SawStep",
+            "id": "Mb8XlBzfr8k",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Dabuz",
+            "id": "9pwMKWp2jQo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Luminous!",
+            "id": "QRRCMIkrRAQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Kofi",
+            "id": "8AdgFLTKUUQ",
+            "timeStamp": null
+        }
+    ]
+}

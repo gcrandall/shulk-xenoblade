@@ -1,0 +1,82 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Obvious landing aerials will give Falcon an easy opening. Be ambiguous in neutral.",
+        "Punish Falcon offstage; Airslash can extend an edgeguard even if it won't kill yet.",
+        "Mix up recovery timings or die repeatedly to Falcon's huge active D-Air 2-frame."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 47]
+        ],
+        "ftilt": [
+            [27, 50]
+        ],
+        "fsmash": [
+            [41, 50]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": "Spacing is precise"
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Jogibu",
+            "id": "lFgyaOUwCg0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Jogibu",
+            "id": "7RiuZ7yVAe0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Andrik",
+            "id": "FRFTzuwMabE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Infamous",
+            "id": "-Lx-WCCfckI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Infamous",
+            "id": "ZK9pPGo6ToU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Dufaux",
+            "opponent": "Sean",
+            "id": "rFly4tYMHMo",
+            "timeStamp": null
+        }
+    ]
+}

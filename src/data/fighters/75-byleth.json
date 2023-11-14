@@ -1,0 +1,71 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character has good lingering hitboxes. Use Speed art and your movement to open them up.", 
+        "Their recovery is solid but not infallible. Strike them deep offstage to secure a kill early.",
+        "Short Hop N-Air will always finish with the -11 landing hitbox. Full Hop N-Air gives Byleth control over whether the landing hitbox comes out, making it impossible to punish on reaction.",
+        "Respect both U-Smash and U-Air; they are solid anti-airs that can punish you for hovering over them.",
+        "In vanilla, Up-B into B-Air is true around 20-43%. Have Shield art ready if you're by the ledge.",
+        "Once you shield an arrow, beware of D-Air shield breaks until it recovers.",
+        "Read Aqours!'s [Byleth Write-Up](https://docs.google.com/document/d/1EwpLNcAcSKfhdzOfe-2Ss8KhzItGdZ3j0QhgMRoCXf8/edit?usp=sharing) for more details."
+        ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 24]
+        ],
+        "ftilt": [
+            [38, 48]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Precise. Hits at roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "MKLeo",
+            "id": "f43PtrQqirE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Justinbyleth",
+            "id": "-8JYO_ZfBCE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "God Pookus",
+            "id": "R2O2PYSdcZc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "MKLeo",
+            "id": "H2k1Y-Xwlyg",
+            "timeStamp": null
+        }
+    ]
+}

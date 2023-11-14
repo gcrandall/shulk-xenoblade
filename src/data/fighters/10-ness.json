@@ -1,0 +1,70 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use crouch and fullhops to avoid Ness's strong short hop lane control.",
+        "Vision and your aerials demolish PK Thunder; execute your offstage punishment.",
+        "The best place for Shulk to have Ness is above him."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "ATATA",
+            "id": "DOUYhu8eWxA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Scend",
+            "id": "0wgRCqbP5lo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Gackt",
+            "id": "Kmw04Wd5XEw",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Syrup",
+            "id": "ykEIH1rWHk8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Syrup",
+            "id": "z96APB6BLCs",
+            "timeStamp": 6837
+        }
+    ]
+}

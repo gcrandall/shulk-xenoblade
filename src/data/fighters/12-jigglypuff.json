@@ -1,0 +1,58 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Puff falls out of Air Slash when she is at short hop height; beware.",
+        "Protect your jump or die at 30.",
+        "Turn off arts when she is planking in order to get them back faster."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "BassMage",
+            "id": "ZqpD2wqG4IU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "BassMage",
+            "id": "BUqOWrznFUA",
+            "timeStamp": 4255
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "Cannon Red",
+            "id": "5TKxoiUg21A",
+            "timeStamp": null
+        }
+    ]
+}

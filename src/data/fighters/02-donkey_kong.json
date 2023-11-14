@@ -1,0 +1,74 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Plan your punishes in advance to maximize your advantage state when he overextends.",
+        "Kill him every time he goes offstage with Airslash and F-Air.",
+        "Beware Ding Dong/DKO (platform cargo U-Throw U-Air) **around 68-81%**. Shulk's window is pretty generous."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [6, 15]
+        ],
+        "ftilt": [
+            [6, 57]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": false
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "King",
+            "id": "zTLCROuieuI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Noodl",
+            "id": "-B5AGYcP2_g",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "ChunkyKong",
+            "id": "cMxf0KqT0lg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "Johny",
+            "id": "JkRF8kKYvhI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Fizzmint",
+            "opponent": "Konga",
+            "id": "yV28Ty47FAY",
+            "timeStamp": null
+        }
+    ]
+}

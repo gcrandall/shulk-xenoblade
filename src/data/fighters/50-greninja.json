@@ -1,0 +1,65 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character excels at whiff punishing obvious landing aerials; stay grounded to play neutral",
+        "His out-of-shield game is pretty poor; use jab after nair to effectively stuff a lot of his options on block.",
+        "His water gimps are effective. Make sure you are snapping the ledge.",
+        "Shield art is incredibly valuable. Camp for it if you can."
+        ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 46]
+        ],
+        "ftilt": [
+            [25, 46]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Hits, but only at a precise spacing when he's pulling himself up."
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Capsize",
+            "id": "VteES8aGniM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Venia",
+            "id": "AMgOTzlBRhg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "Prinplup",
+            "id": "l0NvNCro3CY",
+            "timeStamp": null
+        }
+    ]
+}

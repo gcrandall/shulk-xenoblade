@@ -1,0 +1,77 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Bad shield pressure gets you Up-B OoS'd. Good shield pressure gives you free punishes on bad Up-Bs OoS.",
+        "It is still Cloud's turn if he spaces B-Air on block. Play the mixup game.",
+        "His recovery is poor but has a lot of mixups. Don't commit super hard to an edgeguard unless you take his jump away first.",
+        "You can DI Climhazzard to fall out of the second hit, but this must be done pre-emptively. Do it to put yourself in a more favorable position than normal.",
+        "Cross Slash is a very good anti-air. "
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 19]
+        ],
+        "ftilt": [
+            [27, 49]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Niko",
+            "id": "WQWL46N-yUE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Masashi",
+            "id": "nYtDxly4dnM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Sparg0",
+            "id": "zFTItOrGLWM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Fizzmint",
+            "opponent": "LightningQuiz7",
+            "id": "KYeu3s5H5NA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Vedhan",
+            "opponent": "Dyla",
+            "id": "V55K19nZu7E",
+            "timeStamp": null
+        }
+    ]
+}

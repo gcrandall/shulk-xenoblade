@@ -1,0 +1,101 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Respect rising F-Air a lot; Wolf can use it to call out jumps.",
+        "Respect the safety of Wolf's smash attacks. Look for the panic spotdodge after. Also, you can Air Slash all of them OOS.",
+        "Wolf is a fast faller. F-Throw and D-Air are great ways to force techs on him all game.",
+        "Read Uzair's [Wolf Write-Up](https://drive.google.com/file/d/1wvtNefJAwxP3TqTf-86lXS15GWsWTqou/view?usp=sharing) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 45]
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": "Spacing can be precise but is more consistent when facing away from the ledge."
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise. Roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": "Only works during some parts of his ledge hang animation"
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Oryon",
+            "id": "zxQy0V6OJxk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Larry Lurr",
+            "id": "iRkKydF3F0c",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Larry Lurr",
+            "id": "KiSZ6zEyC1k",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Larry Lurr",
+            "id": "yZrh5UPJx8A",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Lemontea",
+            "id": "B3SVngovR0Y",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Oryon",
+            "id": "WV8OxyUtE_g",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Fizzmint",
+            "opponent": "Jakal",
+            "id": "-XSlMpuGr6g",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Lemontea",
+            "id": "yPC5lNbW5VU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "SCHMIXTAPE",
+            "id": "sTU7MRQfZ98",
+            "timeStamp": null
+        }
+    ]
+}

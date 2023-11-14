@@ -1,0 +1,70 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use your movement to take advantage of Roy's poor air acceleration. Every time he jumps you know exactly where he is going to land. Use that.",
+        "Roy is allowed to pressure your shield as much as he wants. Play the mixup game.",
+        "Roy will absolutely kill you at 65 at ledge. Either be ready to react at a moments notice with Shield art or tread carefully when he has you at ledge."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 48]
+        ],
+        "ftilt": [
+            [8, 48]
+        ],
+        "fsmash": [
+            [22, 48]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ramses",
+            "opponent": "Mr. R",
+            "id": "QNy0MpTbVh0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Fizzmint",
+            "opponent": "Everest",
+            "id": "cBva7dBvtv8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Vince",
+            "id": "s1XaYeR0Q4M",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Dufaux",
+            "opponent": "Broly",
+            "id": "BfJdgQB1k48",
+            "timeStamp": null
+        }
+    ]
+}

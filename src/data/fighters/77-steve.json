@@ -1,0 +1,93 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "You massively outrange and outspeed this character. Never give them an opportunity to start their combo game/shield safety.", 
+        "Opt for Smash art instead of Shield art as your combo breaker.",
+        "Have a basic understanding of Steve's special moves so you don't die to easy-to-set-up ledge traps.",
+        "U-Smash is a fantastic anti-air, but it's also extremely unsafe on whiff. Have a punish prepared when this happens.",
+        "Minecart and Anvil are [~~strong~~](https://twitter.com/SDr4gs/status/1559437213368188928) best-in-class reversal tools in disadvantage. Prioritize burning through Steve's resources and holding center stage over maintaining advantage outright."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Precise. Hits at roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Jake",
+            "id": "2fJvnUfZx50",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Gonz",
+            "id": "M_bCZwOdFNA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Onin",
+            "id": "5xveluAxOmc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Onin",
+            "id": "9vmHTTtJjeA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "Many",
+            "id": "vHqTAoUzDTE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Steffen",
+            "id": "JW9PfI8Bq28",
+            "timeStamp": null
+        },
+        {
+            "shulk": "CoolKid85",
+            "opponent": "Redacious",
+            "id": "zSLEUkfZf68",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Steffen",
+            "id": "7m9r420P3cA",
+            "timeStamp": null
+        }
+    ]
+}

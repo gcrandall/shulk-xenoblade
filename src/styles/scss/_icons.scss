@@ -1,0 +1,56 @@
+// ------------------------------------
+// FONTELLO
+//		Mixins to allow use of fontello icons without use of the class.
+// ------------------------------------
+
+	// Fontello Icon Variables
+	//		Variables that allow access to icons in a readable form.
+	//		Should be updated if icon font is updated.
+	// ------------------------------------
+    $icon-ufd:                  '\e800';
+    $icon-dragdown:             '\e801';
+    $icon-true:                 '\e803';
+    $icon-false:                '\e804';
+    $icon-depends:              '\e805';
+    $icon-close:                '\e806';
+    $icon-help:                 '\e807';
+    $icon-arrow-down:           '\e808';
+    $icon-eye:                  '\e809';
+    $icon-header-end:           '\e80a';
+    $icon-header-start:         '\e80b';
+    $icon-circles:              '\e802';
+    $icon-hamburger:            '\e80c';
+    $icon-x:                    '\e80d';
+    $icon-search:               '\e80e';
+    $icon-arrows-cw:            '\e80f';
+    $icon-checkmark:            '\e810';
+    $icon-monado-buster:        '\e811';
+    $icon-monado-jump:          '\e812';
+    $icon-monado-shield:        '\e813';
+    $icon-monado-smash:         '\e814';
+    $icon-monado-speed:         '\e815';
+    $icon-exclamation-point:    '\e816';
+
+    
+
+    // Fontello Icon Mixins
+    //		Mixins to be applied to :before or :after pseudo elements
+    // ------------------------------------
+    @mixin fontello-base {
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        speak: never;
+        display: inline-block;
+        text-decoration: inherit;
+        width: 1em;
+        text-align: center;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    @mixin fontello-icon($icon, $important: null) {
+        content: $icon $important;
+    }

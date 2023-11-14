@@ -1,0 +1,82 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use frontslash, retreating N-Air, and retreating B-Air to force Sonic to stop mashing Spin Charge/Spin Dash.",
+        "Do not get killed at 80 by F-Smash or at 30 by spring gimp. It's Sonic's only way to kill you before 200 percent.",
+        "Whiffed Homing Attacks are like -70 or something. Have a lethal punish ready on reaction."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 13]
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "KEN",
+            "id": "HNg3S0Huanc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Ls",
+            "id": "efUt5HImB44",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "KEN",
+            "id": "Y1jtBq-XVAs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "KEN",
+            "id": "O04du5t_6OU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Urboy",
+            "id": "dHbu9cvc7sw",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "The Winner",
+            "id": "lXC7YyeASuI",
+            "timeStamp": null
+        }
+    ]
+}

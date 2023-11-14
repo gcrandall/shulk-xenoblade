@@ -1,0 +1,96 @@
+.l-header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $header-color;
+    &::after {
+        content: "";
+        position: absolute;
+        display: flex;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $header-border-color;
+    }
+    //background-image: url("../assets/images/titlebar.webp");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 40%);
+    @include responsive-properties((
+    	height:		($header-height-mobile, $header-height, null)
+    ));
+
+    &__logo {
+        @include responsive-properties((
+            height:		(2rem, 3.125rem, null)
+        ));
+    }
+
+    &__help {
+        $help-height-mobile: calc($header-height-mobile - 1rem);
+        $help-height: calc($header-height - 1.5rem);
+        position: absolute;
+        right: 0.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $card-border;
+        transition: 0.3s all;
+        outline: none;
+        border: none;
+        border-radius: 50%;
+        @include responsive-properties((
+            height:		($help-height-mobile, $help-height, null),
+            width:		($help-height-mobile, $help-height, null)
+        ));
+        &:hover,
+        &:focus-visible {
+            color: $focus-outline-color;
+            text-shadow: 0 0 4px $focus-outline-color;
+        }
+        i {
+            @include responsive-properties((
+                font-size:		(1.25rem, 1.5rem, null)
+            ));
+        }
+    }
+
+    &__menu {
+        $help-height-mobile: calc($header-height-mobile - 1rem);
+        $help-height: calc($header-height - 1.5rem);
+        position: absolute;
+        left: 0.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $card-border;
+        transition: 0.3s all;
+        outline-color: transparent;
+        border: none;
+        border-radius: 50%;
+        @include responsive-properties((
+            height:		($help-height-mobile, $help-height, null),
+            width:		($help-height-mobile, $help-height, null)
+        ));
+        &:hover,
+        &:focus-visible {
+            color: $focus-outline-color;
+            text-shadow: 0 0 4px $focus-outline-color;
+        }
+        i {
+            @include responsive-properties((
+                font-size:		(1.25rem, 1.5rem, null)
+            ));
+        }
+        @include media-breakpoint-up(xl) {
+            display: none;
+        }
+    }
+}

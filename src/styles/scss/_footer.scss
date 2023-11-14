@@ -1,0 +1,17 @@
+.l-footer {
+    background-color: $header-color;
+    text-align: center;
+    font-size: .8rem;
+    color: $body-color-lighter;
+    border-top: 2px solid $header-border-color;
+    @include responsive-properties((
+        padding-block:		(1rem, null, 1rem),
+    ));
+    &__credits {
+        margin-bottom: 0;
+        a {
+            display: inline-block;
+            margin-inline: 0.2rem;
+        }
+    }
+}

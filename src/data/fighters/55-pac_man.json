@@ -1,0 +1,77 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "N-Air has no lag out of shield, so either only hit his shield with N-Air or space your sword.",
+        "Respect how long the hitbox on his grab lasts",
+        "Gain a basic understanding for PAC-MAN's various hydrant traps and fruit combos so you don't die for free to apple cheese",
+        "If a fruit hits your shield you can jump and z-catch it",
+        "Learn which moves break the hydrant and that you can run through it in Speed art."
+        ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Tea",
+            "id": "ah9_fe5BGnc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Polka",
+            "id": "DS7HKQCsgEg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "MoDzai",
+            "id": "r5LXeJwYaJg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "C.Kaleb",
+            "id": "CDQRnmVGrAc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "JDV",
+            "id": "05MR9FfGvWw",
+            "timeStamp": null
+        }
+    ]
+}

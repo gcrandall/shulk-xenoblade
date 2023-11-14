@@ -1,0 +1,57 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Analyze whether they are aggressively stuffing your jumps or trying to play back and whiff punish. Adjust accordingly.",
+        "If you can't confront them deep offstage, don't edgeguard.",
+        "D-Tilt is a great move in this matchup.",
+        "Their F-Smash can hit Shulk's ledge hang, and will tipper on Marth. Beware.",
+        "Even though the Buster D-Throw combo windows seem small, their only way to escape is Dolphin Slash, which won't hit Shulk. Punish their landing if they try to escape."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [25, 29],
+            [36, 40]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise. Roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Ignaize",
+            "id": "xeSZVgvJoOw",
+            "timeStamp": null
+        },
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "RAMBOSS",
+            "id": "0ZLma3Tw42A",
+            "timeStamp": 493
+        }
+    ]
+}

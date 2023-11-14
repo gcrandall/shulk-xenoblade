@@ -1,0 +1,78 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "His buttons are strong but committal. Make a decision to enter his space or let him enter yours.",
+        "Ganon can demolish Shulk's stocks if you allow him a stray hit, especially with moves like grab or dash attack.",
+        "To get him to overextend, first you have to force him to feel your pressure by going and hitting him."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 21]
+        ],
+        "ftilt": [
+            [5, 14],
+            [18, 27],
+            [31, 35]
+        ],
+        "fsmash": [
+            [7, 21]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": false
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "elijmin",
+            "opponent": "VGAddict",
+            "id": "bj6lTA2J82o",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Fizzmint",
+            "opponent": "Major",
+            "id": "x2INvjpUrac",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nach",
+            "opponent": "KonkeyDorf",
+            "id": "f9GKXzrA0LA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Anragon",
+            "opponent": "Oxydion",
+            "id": "CoQgHJzhErs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Seabass",
+            "id": "fegL_TzZho0",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Abuse crouch in this matchup; Joker cannot B-Air you while you are crouched for the most part.",
+        "Mix up doing damage and timing him out to waste Arsene. The timer is too long to ONLY run away; it's ok to hit him a few times and then run to waste it.", 
+        "You will die exceedingly early if your recovery gets hit by Tetrakarn. Beware when you recover."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 29]
+        ],
+        "ftilt": [
+            [10, 47]
+        ],
+        "fsmash": [
+            [22, 32]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Void",
+            "id": "zXpNBxn0WWw",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "MKLeo",
+            "id": "Lf1C4hq0ps4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Lemmon",
+            "id": "eHhZC7LydHs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Mercury",
+            "id": "Fct70cyQLQU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Nitro",
+            "id": "gxkrypqMsJA",
+            "timeStamp": null
+        }
+    ]
+}

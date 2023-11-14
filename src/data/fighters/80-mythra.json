@@ -1,0 +1,41 @@
+
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Use your mobility arts to keep up with Mythra's superior speed and frame data. Otherwise, play a passive game and try to extend your advantage without getting caught by foresight.",
+        "Her Side-B is -47 on shield, and is easily edgeguardable offstage.",
+        "Use F-Air/D-Air to edge guard her since both Side-B and Up-B have poor snap.",
+        "Up-B OoS will kill around 135%."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 47]
+        ],
+        "ftilt": [],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": "79-pyra.json",
+    "vods": null
+}

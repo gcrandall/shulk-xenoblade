@@ -1,0 +1,83 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Hit his shield with anything other than nair and you are getting hit with banana. Abuse nair and tomahawks to pressure him.", 
+        "He has a lot of recovery mixups but can explode if you call one out. Pay attention and then make an educated guess.",
+        "With quick reactions, shield art can save you from all of his kill confirms.",
+        "Read Dusty Carpet's [Diddy Kong Write-Up](https://docs.google.com/document/d/1GZq4ZBdH4HoPkVnXrRUAkY0DcX4Pq67fiC9lTFZnSDY/edit) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 37]
+        ],
+        "ftilt": [
+            [19, 46]
+        ],
+        "fsmash": [
+            [31, 46]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Dufaux",
+            "opponent": "unknown",
+            "id": "9kjdY2Z0p5A",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Dufaux",
+            "opponent": "Tweek",
+            "id": "qwrRv_vzebg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Tweek",
+            "id": "AnszdH874dU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Rivers",
+            "id": "_j7ki8OKAo8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "FD",
+            "id": "4TUWwX7hRfE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Zinoto",
+            "id": "PNp7tBg11U0",
+            "timeStamp": null
+        }
+    ]
+}

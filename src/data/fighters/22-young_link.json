@@ -1,0 +1,83 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Murder him offstage. Ledge slip Air Slash bodies Young Link.",
+        "Young Link has a lot of safety baked into his ground game and aerials, careful about when you Air Slash or grab out of shield.",
+        "His ledge options are literally bottom 1. Your advantage state lies there.",
+        "Consider throwing them off stage with B-Throw as it faces them away from the stage, making it harder to use their Z-Air tether recovery."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 29]
+        ],
+        "ftilt": [
+            [25, 46]
+        ],
+        "fsmash": [
+            [14, 18]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Toast",
+            "id": "niZZts12x6E",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "Supahsemmie",
+            "id": "5wXR-HBD1bc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Skittles",
+            "id": "jtJ1HpdxCZc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Aqours!",
+            "opponent": "Khakis",
+            "id": "fkJ4TP9FUws",
+            "timeStamp": 2695
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "Draver",
+            "id": "N1oLkP8ozHI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Fizzmint",
+            "opponent": "Skittles",
+            "id": "YbsCbFURz2M",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "You cannot react to can and skeet toss; to get in properly you must preemptively commit to going in.",
+        "Jump over Skeet toss; dash attack under can toss.",
+        "Separating Duck Hunt from his Can and putting him offstage gives him zero options. Go kill him."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            [25, 42]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range, hit 1 will connect into hit 2"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Vintendo",
+            "id": "09or8zTDV4s",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "embo_z",
+            "id": "L2a9RzMyZNk",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Mix up full hops and crouching to force Isabelle away from Lloid and slingshot pressure.",
+        "You can use your sword to break her mine traps.",
+        "Respect fishing rod, have a punish planned for bad ones."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": "Spacing is precise"
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ranger",
+            "opponent": "Mr. Zercon",
+            "id": "aaQChxDNEsU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Reflex",
+            "opponent": "B-Rice",
+            "id": "m24YjrAJ5fA",
+            "timeStamp": null
+        }
+    ]
+}

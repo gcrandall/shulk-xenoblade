@@ -1,0 +1,64 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Respect her U-Smash; it's fast and strong.",
+        "Respect Luma; she can still hit you even if Rosalina is in hitstun or is being grabbed.",
+        "Rosalina doesn't have a hurtbox when she recovers. Free D-Air and F-Air 2-frame attempts."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": "Catches roll, but she falls out of U-Smash 2"
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Dabuz",
+            "id": "gHdpmkIp5-0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Tru4",
+            "opponent": "Homika",
+            "id": "27lpLhUVhjY",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Tru4",
+            "opponent": "Homika",
+            "id": "ed2sKZ8Dt4k",
+            "timeStamp": null
+        }
+    ]
+}

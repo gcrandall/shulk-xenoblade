@@ -1,0 +1,72 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "They rely heavily on Side-B to force their way in. Play back and use Air Slash and your tilts to defeat it.",
+        "Never focus on splitting them first; always play defensively and only focus one after a stray hit separates them.",
+        "You can and will die to U-Tilt U-Air; beware."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [15, 48]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Only hits Popo. Often lets you kill Nana during the followup."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Nicko",
+            "opponent": "Big D",
+            "id": "H-aN4NZrPOI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Big D",
+            "id": "9bk1ICHV3xI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Big D",
+            "id": "6OnMYFUi3as",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Big C",
+            "id": "AIKJGz_NKok",
+            "timeStamp": null
+        },
+        {
+            "shulk": "CoolKid85",
+            "opponent": "Phirb",
+            "id": "4FicCw1Yz9Y",
+            "timeStamp": null
+        }
+    ]
+}

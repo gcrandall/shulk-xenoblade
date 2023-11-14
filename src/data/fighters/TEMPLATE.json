@@ -1,0 +1,66 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "bullet point 1",
+        "bullet point 2",
+        "bullet point 3"
+    ],
+
+    "stageRatings": {
+        "BATTLEFIELD": null,
+        "FINAL_DESTINATION": null,
+        "SMALL_BATTLEFIELD": null,
+        "SMASHVILLE": null,
+        "TOWN_AND_CITY": null,
+        "POKEMON_STADIUM_2": null,
+        "KALOS": null,
+        "HOLLOW_BASTION": null,
+        "YOSHIS_STORY": null,
+        "NORTHERN_CAVE": null,
+        "LYLAT": null
+    },
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            []
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": null,
+            "neutralGetupAttack": null
+        },
+        "usmash": {
+            "neutralGetupRoll": null,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": null,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": null,
+            "outrangesGetupAttack": null,
+            "notes": null
+        },
+        "airslash": null,
+        "cornerBusterPivotDsmashShieldBreak": null
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Shulk player's tag",
+            "opponent": "Opponent's tag",
+            "id": "dQw4w9WgXcQ",
+            "timeStamp": null
+        }
+    ]
+}

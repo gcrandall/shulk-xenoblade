@@ -1,0 +1,80 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Approach Samus and then wait. Samus is forced to press a button or risk you getting a chance to hit her.",
+        "Her F-Air is an excellent anti-air. If you are expecting it, crouch.",
+        "Overshoot your juggles to punish her for trying to force a whiff with bomb.",
+        "Its better to tank a bomb at ledge if its well spaced and timed than trying to do a getup option.",
+        "Consider throwing them off stage with B-Throw as it faces them away from the stage, making it harder to use their Z-Air tether recovery."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [28, 29]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Abadango",
+            "id": "ePc8C6Upd1s",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Sisqui",
+            "id": "ja43hcxGz9M",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "ARJAY!!!",
+            "id": "ajHbCVfGlDI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "Rawk",
+            "id": "oEVxvFwJnq8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "Sisqui",
+            "id": "05PAnbPsi5E",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "IcyMist",
+            "id": "G5vA-bfsQOQ",
+            "timeStamp": null
+        }
+    ]
+}

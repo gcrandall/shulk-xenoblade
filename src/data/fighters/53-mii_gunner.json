@@ -1,0 +1,79 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "They love to mix their movement up a lot with fair, use your own fair and Bair/Uair to catch them.",
+        "They're similar to [Samus](/details/samus) but much worse overall.",
+        "You can hit back grenades (the blue circle one).",
+        "Be ready to react to Stealth Burst if they run it. Game audio helps a lot."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 10],
+            [16, 22]
+        ],
+        "ftilt": [
+            [16, 23],
+            [28, 50]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Dufaux",
+            "opponent": "Capitancito",
+            "id": "TohL4jJ79qs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "C.Kaleb",
+            "id": "CDQRnmVGrAc",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Carls493",
+            "opponent": "Katakiri",
+            "id": "ZVJIvDR4W1s",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Secret",
+            "opponent": "Grey",
+            "id": "hSNHFslLq6g",
+            "timeStamp": null
+        },
+        {
+            "shulk": "XeN0",
+            "opponent": "Sled",
+            "id": "GrF0TmPmD4o",
+            "timeStamp": null
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Ptooie bodies jump-ins. Grab him or space dash attack to where ptooie will miss you.",
+        "Both U-smash and U-Throw kill super early; beware his OoS game.",
+        "Down-B has armor; beware getting stuffed trying to edgeguard him after he armors your F-Air and retaliates. You can beat it with Vision"
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [5, 53]
+        ],
+        "ftilt": [
+            [29, 53]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": "Catches roll, but he falls out of U-Smash 2"
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": false
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "DiZ",
+            "id": "5O-eMAG_wGA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "RyanDCB",
+            "id": "WgELjVBfhQ0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "elijmin",
+            "opponent": "RyanDCB",
+            "id": "0I1BXkAMeUI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "Regi",
+            "id": "lzTPfrRa7xg",
+            "timeStamp": null
+        }
+    ]
+}

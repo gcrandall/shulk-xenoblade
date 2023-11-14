@@ -1,0 +1,71 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "D-Tilt/Aerials are an effective wall. Be patient and trust that you are denying him a way in.",
+        "He can convert extremely fast into waft. Keep a finger on the dial when he has it.",
+        "Wario has an extremely good but exploitable recovery. Go hit him."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 46]
+        ],
+        "ftilt": [
+            [5, 8],
+            [16, 51]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Spacing is precise. A little less than roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Glutonny",
+            "id": "lesL7GffUPE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Glutonny",
+            "id": "cO7orRO5oGk",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "BeatyBean",
+            "id": "ESLM_kuguoo",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "9SuperPie",
+            "id": "NXeqUDk0XKM",
+            "timeStamp": null
+        }
+    ]
+}

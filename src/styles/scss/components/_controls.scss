@@ -1,0 +1,95 @@
+.c-controls {
+    padding-top: 1rem;
+
+    &__search {
+        .input-field {
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            input,
+            button,
+            label {
+                max-width: 100%;
+            }
+        }
+    }
+
+    &__sort {
+        $reverse-btn-width: 2.5rem;
+        $reverse-btn-margin: 0.5rem;
+        max-width: 100%;
+        .input-field {
+            width: calc(100% - $reverse-btn-width - $reverse-btn-margin);
+            flex-grow: 1;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            input,
+            button,
+            label {
+                max-width: 100%;
+            }
+        }
+        &-reverse {
+            flex-grow: 0;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: $reverse-btn-width;
+            padding: 0;
+            margin-left: $reverse-btn-margin;
+            border: none;
+            color: $card-border;
+            i {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.3s all;
+                font-size: 1.5rem;
+            }
+            &.reversed {
+                i {
+                    transform: rotateX(180deg);
+                }
+            }
+            &:hover,
+            &:focus-visible {
+                color: $focus-outline-color;
+                text-shadow: 0 0 4px $focus-outline-color;
+            }
+        }
+    }
+
+    &__clear {
+        width: auto !important;
+        @include media-breakpoint-down(md) {
+            width: 100% !important;
+        }
+        .btn {
+            @include media-breakpoint-up(md) {
+                min-width: 10rem;
+            }
+            @include media-breakpoint-down(md) {
+                width: 100%;
+            }
+        }
+    }
+
+    .container {
+        width: 100%;
+        .row {
+            --bs-gutter-x: 1rem;
+		    --bs-gutter-y: 1rem;
+            &>div {
+                display: flex;
+                justify-content: center;
+                align-items: stretch;
+                .input-container {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

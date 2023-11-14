@@ -1,0 +1,72 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Grab into 7 U-Airs is true. Don't get grabbed.",
+        "Clown Kart is his only mobility. Learn the basics of how it works so you know how to wall it out.",
+        "Respect his hammer/airdodge mixups when he jumps out of the cart, but remember he can't directional airdodge after he Up-B's.",
+        "Rising Bair/Fair will win most air to airs, use B-Air or give these moves respect.",
+        "The Up-B swing has a lot of lag if he lands on the stage with it. Have a punish ready."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [3, 19]
+        ],
+        "ftilt": [
+            [15, 51]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Any range, F-Smash 1 will connect into 2 for cart and no cart"
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": false,
+        "cornerBusterPivotDsmashShieldBreakNotes": "Can work but the spacing is extremely precise"
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ranger",
+            "opponent": "Sweshi",
+            "id": "3-zxP0Jo7lM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Sandfall",
+            "opponent": "Yoda Cage",
+            "id": "3LtJ6Pb1go4",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Taternator",
+            "id": "zxGjkPgncME",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Mr_Mugz",
+            "id": "Iqry_soxhpg",
+            "timeStamp": null
+        }
+    ]
+}

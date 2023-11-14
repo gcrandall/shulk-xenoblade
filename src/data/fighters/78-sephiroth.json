@@ -1,0 +1,75 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character outranges you, but you can airslash all but perfectly spaced fairs.",
+        "Be extremely cautious of Shadow Flare setups or risk dying at 40.",
+        "Scintilla BODIES mashing. Adapt quickly if you see Sephiroth players mashing counter when you approach in the air."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 30]
+        ],
+        "ftilt": [
+            [15, 49]
+        ],
+        "fsmash": [
+            [24, 30]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": "Catches roll, but he falls out of U-Smash 2"
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Ned",
+            "id": "8RT3zHarWjQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Masashi",
+            "id": "nYtDxly4dnM",
+            "timeStamp": null
+        },
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Tweek",
+            "id": "AnszdH874dU",
+            "timeStamp": null
+        },
+        {
+            "shulk": "eljimin",
+            "opponent": "Ned",
+            "id": "QDHkdKddonI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "KEN",
+            "id": "sklRVRjsqNg",
+            "timeStamp": null
+        }
+    ]
+}

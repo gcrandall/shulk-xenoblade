@@ -1,0 +1,73 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "If he N-Air/F-Airs your shield, it's still his turn.",
+        "Dash attack is insanely laggy. It's ok to drop shield to chase the cross up.",
+        "Up-B has a weird launch angle. In general, always hold down and away or risk dying super early.",
+        "It's better to spotdodge the third Side-B than block it. You'll get to act faster.",
+        "Approaching B-Air is very good in this matchup to get around magic.",
+        "Mashing in Buster art means you die to counter at 50. Beware.",
+        "Sora is so floaty that some low percent nair combos don't work right. Adjust your strings accordingly.",
+        "Against Sora's aerials it's better to swing after him rather than before him because he's floaty.",
+        "U-Throw is valid against this character as he's too floaty to contest vertical pressure.",
+        "Learn how his recovery works. He will have to Side-B after his Up-B if he isn't close enough. ",
+        "Side-B doesn't snap to the ledge immediately until the hitbox is done. You can contest with D-Air on ledge.",
+        "Blizzaga loses to shield. Firaga loses to jump, and Thundaga loses to just remaining grounded.",
+        "Counter will kill you if you try to use an obvious Backslash to ledge. Be precise and unpredictable with how you recover as he has tons of lethal two-frames and edgeguard options.",
+        "Don't try to punish D-Smash with grab. You'll likely just whiff due to the high profile. Air Slash OoS won't work either.",
+        "Read Ben's [Twitter thread on general Sora Counterplay](https://twitter.com/imbenstaudt/status/1630338517397118981?s=20) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            [14, 29]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": false
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Zackray",
+            "id": "r8BmR0qpmM0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "SoulArts",
+            "opponent": "DTP",
+            "id": "eTUh-bDdh1Y",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Kameme",
+            "id": "c_7Y2t5wv2U",
+            "timeStamp": null
+        }
+    ]
+}

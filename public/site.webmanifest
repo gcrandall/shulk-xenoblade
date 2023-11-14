@@ -1,0 +1,20 @@
+{
+    "name": "ShulkXenoblade.com",
+    "short_name": "ShulkXenoblade.com",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ff3b3b",
+    "background_color": "#2C2A28",
+    "start_url": "https://ShulkXenoblade.com",
+    "display": "standalone"
+}

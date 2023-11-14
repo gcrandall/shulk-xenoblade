@@ -1,0 +1,70 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Wall him with D-Tilt and aerials; he struggles to deal with it.",
+        "Offstage he is free, destroy him.",
+        "This character's damage output is insane; slow down and play slow so you can use your range.",
+        "Be careful not to overextend on his shield."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [4, 18],
+            [15, 36]
+        ],
+        "ftilt": [
+            [27, 49]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "JaZaR",
+            "id": "M2rsIbtAZbQ",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Tsumusuto",
+            "id": "68JIUbSXF5U",
+            "timeStamp": 323
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "JaZaR",
+            "id": "dnWg54cfALg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "JaZaR",
+            "id": "sOLxyPa0xfc",
+            "timeStamp": null
+        }
+    ]
+}

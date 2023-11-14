@@ -1,0 +1,152 @@
+.c-fighter-details {
+    padding-block: 1rem;
+    .container {
+        &:not(:first-child) {
+            @include responsive-properties((
+                margin-top:      (0.5rem, 1rem, null)
+            ));
+        }
+        &:not(:last-child) {
+            @include responsive-properties((
+                margin-bottom:      (0.5rem, 1rem, null)
+            ));
+        }
+        .row {
+            --bs-gutter-x: 1rem;
+		    --bs-gutter-y: 1rem;
+            padding-top: --bs-gutter-y;
+            @include media-breakpoint-down(md) {
+                --bs-gutter-x: 0.5rem;
+		        --bs-gutter-y: 0.5rem;
+            }
+        }
+    }
+
+    .c-card {
+        &:not(:first-child) {
+            margin-top: 1rem;
+            @include media-breakpoint-down(md) {
+                margin-top: 0.5rem;
+            }
+        }
+        &:only-child {
+            height: 100%;
+        }
+    }
+
+    &__header {
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        width: 100%;
+        max-width: 60rem;
+        &::before,
+        &::after {
+            content: "";
+            display: block;
+            flex-grow: 0;
+            flex-shrink: 0;
+            background-image: url("../assets/images/fighterHeaderFlair.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            @include responsive-properties((
+            	height:		        (5rem, 8.5rem, null),
+                width:		        (5rem, 8.5rem, null),
+                margin-bottom:      (0.25rem, -0.85rem, null)
+            ));
+        }
+        &::before {
+            @include responsive-properties((
+                margin-right:      (-0.3rem, -0.85rem, null)
+            ));
+        }
+        &::after {
+            @include responsive-properties((
+                margin-left:      (-0.3rem, -0.85rem, null)
+            ));
+            transform: scaleX(-1);
+        }
+        &-extras {
+            position: absolute;
+            left: 3rem;
+            right: 3rem;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1rem;
+            @include media-breakpoint-down(md) {
+                display: none;
+            }
+        }
+        &-lvl {
+            &::before {
+                content: "Lv ";
+                opacity: 0.4;
+            }
+            &::after {
+                content: "???";
+                letter-spacing: -0.2rem;
+                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+            }
+        }
+        &-eye {
+            &:before {
+                @include fontello-base;
+                @include fontello-icon($icon-eye);
+                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+            }
+        }
+        h1 {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            flex-shrink: 1;
+            background: radial-gradient(circle, rgba(202,65,81,1) 0%, rgba(80,33,47,1) 100%);
+            color: #FFFFFF;
+            box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.4);
+            line-height: 1;
+            font-family: $font-family-header;
+            @include responsive-properties((
+                font-size:          (1.2rem, 1.4rem, null),
+            	height:		        (3rem, 3.5rem, null),
+                padding-bottom:     (0.3rem, 0.5rem, null),
+                margin-bottom:      (1rem, 1rem, null),
+                border-radius:      (1.5rem, 1.75rem, null),
+            ));
+            border-radius: 1.5rem;
+            &::before,
+            &::after {
+                content: "";
+                display: flex;
+                position: absolute;
+            }
+            &::before {
+                z-index: 0;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                border-radius: 1.5rem;
+                mix-blend-mode: overlay;
+                background-image: url("../assets/images/fighterHeaderBackground.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+            }
+            &::after {
+                z-index: 1;
+                left: 1.5rem;
+                right: 1.5rem;
+                bottom: 0.4rem;
+                height: 0.3rem;
+                background: linear-gradient(90deg, rgba(221,85,102,1) 0%, rgba(255,225,93,1) 100%);
+                box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+            }
+            span {
+                z-index: 2;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Keep your options as unpredictable as possible to avoid having them called out by intangible moves.", 
+        "Watch for Kazuya's armor on his smash attacks and heaven's door command grab, particularly in arts that reduce your damage output.", 
+        "Rage drive's intangibility and armor will beat out any attack, so bait it out instead of trying to passively wall it.", 
+        "Electric knockback is determined by what art Shulk is in when he is hit. Avoid being hit with electric while in shield art.",
+        "Kazuya can only laser once before touching the ground and it does not refresh when he is hit. When edgeguarding, treat it like a double jump."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 49]
+        ],
+        "ftilt": [
+            [4, 53]
+        ],
+        "fsmash": [
+            [19, 32]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": true,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "Mittens",
+            "id": "20fX4otg4_k",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Dufaux",
+            "opponent": "Riddles",
+            "id": "vdSwCh-hBRU",
+            "timeStamp": "6326"
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Nito",
+            "id": "0_C7piTLfw0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "Nito",
+            "id": "f2ehBjEXOaE",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Petayaa",
+            "id": "z96APB6BLCs",
+            "timeStamp": 4945
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Petayaa",
+            "id": "UzZIxINb2F8",
+            "timeStamp": null
+        }
+    ]
+}

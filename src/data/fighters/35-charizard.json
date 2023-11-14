@@ -1,0 +1,43 @@
+{
+    "inheritNotesFrom": "33-squirtle.json",
+    "notesShort": [
+        
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [0, 44]
+        ],
+        "ftilt": [
+            [42, 54]
+        ],
+        "fsmash": [
+            []
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": "Only works during some parts of his ledge hang animation. When he slightly pulls himself up, it DOESN'T hit"
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": "33-squirtle.json",
+    "vods": []
+}

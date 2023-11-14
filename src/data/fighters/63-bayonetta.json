@@ -1,0 +1,80 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character's ground game is worse than yours. Stay grounded and crouch a bunch to force her to do subpar options in neutral.",
+        "Seriously, if you don't stop jumping, you will never beat one. ABK is good.",
+        "She is light; don't feel pressured to edgeguard her and risk getting reversaled when you can just Air Slash her at 70.",
+        "Keep Up-B oos in mind, as it's really good and hard to punish. Don't be greedy.",
+        "She can't kill you early other than an with edgeguard or with a smash attack. Watch out for those as they are very huge. Her smash attacks clank on the ground, but unlike Smash 4, they are transcendent in the air.",
+        "She has a hard time dealing with a good ground game and shield play.",
+        "Read Tanark's translation of [Rizeasu's Bayonetta Write-Up](https://docs.google.com/document/d/1731l-Vl6F_fQ8GZlsSDgB5msjBmueLxLsSR1yVgz7nM/edit) for more details."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            [2, 41]
+        ],
+        "ftilt": [
+            [16, 44]
+        ],
+        "fsmash": [
+            [28, 44]
+        ]
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": false,
+            "notes": "Spacing is precise"
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "jaredisking1",
+            "opponent": "Lima",
+            "id": "cIkV-yO4Qgs",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "ConCon",
+            "id": "RWnOL0Fjw1E",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Tayjuice",
+            "id": "o5Fov-g-8qg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Tayjuice",
+            "id": "PzXpM-0HPyA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Demon",
+            "id": "YwoLatJQIzE",
+            "timeStamp": null
+        }
+    ]
+}

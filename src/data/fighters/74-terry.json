@@ -1,0 +1,73 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "This character has strong punishes on parry. Space off block in order to avoid good parry Terry.",
+        "Be ready to use Shield art to avoid dying early to one of his numerous confirms off of moves like jab and D-Tilt.",
+        "Smash art does no damage and will get eaten by the armor on his GO moves. Beware using it when Terry is grounded.",
+        "Edgeguard him by intercepting him after a special move or by forcing a low recovery and hitting the top of his Up-B. Be aware of the spike hitbox of Power Dunk.",
+        "You can wall Terry, and you can outrun his burst range options, but you can't do both at the same time outside of Speed.",
+        "Respect full hop Power Dunk. It autocancels and can be plus on block. Terry is likely holding a button as soon as he lands.",
+        "Mix up SDI vs jab. SDI in falls out of Power Dunk while SDI out falls out of Rising Tackle.",
+        "U-Throw U-Air into Rising Tackle is true at low percents. Mix up DI in either direction otherwise.",
+        "Terry's throw combos are a DI mix-up. DI out vs U-Throw. DI in vs Dthrow."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [
+            []
+        ],
+        "ftilt": [
+            [40, 43]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": "Precise. Hits at roll distance from ledge."
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Riddles",
+            "id": "X7UsCgdPRz8",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Uncivil Ninja",
+            "opponent": "Bunny_Kukumaru",
+            "id": "s4wlhVDtfYA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Nicko",
+            "opponent": "Cless",
+            "id": "vKTaJNP5g0g",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ramses",
+            "opponent": "AndresFn",
+            "id": "vDn2q-3k8Mo",
+            "timeStamp": null
+        }
+    ]
+}

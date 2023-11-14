@@ -1,0 +1,66 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "Good parachutes are GnW's win condition. Force him to do bad ones by using tomahawk shield and spaced aerials to bait him out of block.",
+        "You can and will die at 15 if you try to edgeguard him and fail. Beware.",
+        "B-Air and D-Air are extremely committal moves. Block and punish with Air Slash or whiff punish with dash attack to begin advantage state."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [12, 26]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": false
+        },
+        "usmash": {
+            "neutralGetupRoll": false,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": true,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": true,
+            "outrangesGetupAttack": true,
+            "notes": null
+        },
+        "airslash": true,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Kome",
+            "opponent": "Miya",
+            "id": "X-Lg1Z7oPS0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Miya",
+            "id": "xEiG-O-heI0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "FuerzaDON",
+            "opponent": "Regi",
+            "id": "lzTPfrRa7xg",
+            "timeStamp": null
+        },
+        {
+            "shulk": "RobbieAK47",
+            "opponent": "Ruben",
+            "id": "_0DQD3m2DOU",
+            "timeStamp": null
+        }
+    ]
+}

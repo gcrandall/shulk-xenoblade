@@ -1,0 +1,80 @@
+{
+    "inheritNotesFrom": null,
+    "notesShort": [
+        "You outrange him. Focus on whiff punishment and constantly putting Ike in a bad position.",
+        "Frontslash beats Aether. Vision also works if you stick shulk where the spinning part goes.",
+        "You will die very early to F-Air gimps and Dash Attack. Respect these moves.",
+        "Our F-Air trading with Quick Draw is advantageous for us since it sends Ike further offstage.",
+        "If timed well, you can cause Quick Draw to try to hit you while you're invulnerable in an air dodge. This stops their horizontal momentum and forces them to use Aether to recover."
+    ],
+
+    "busterDthrowComboTree": {
+        "dtilt": [],
+        "ftilt": [
+            [28, 30]
+        ],
+        "fsmash": []
+    },
+
+    "ledgeOptions": {
+        "ftilt": {
+            "neutralGetupRoll": false,
+            "neutralGetupAttack": true
+        },
+        "usmash": {
+            "neutralGetupRoll": true,
+            "notes": null
+        },
+        "fsmash": {
+            "hits": false,
+            "notes": null
+        },
+        "dtilt": {
+            "hits": false,
+            "outrangesGetupAttack": false,
+            "notes": null
+        },
+        "airslash": false,
+        "cornerBusterPivotDsmashShieldBreak": true
+    },
+
+    "inheritVodsFrom": null,
+    "vods": [
+        {
+            "shulk": "Ranger",
+            "opponent": "MeGa",
+            "id": "0zndEkDTolA",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "DarN",
+            "id": "xEPTd3yrhmI",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Coach Ben",
+            "opponent": "DarN",
+            "id": "U6EGWSmBTQ0",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "MeGa",
+            "id": "zIau0nOXz8w",
+            "timeStamp": null
+        },
+        {
+            "shulk": "Ranger",
+            "opponent": "Mega",
+            "id": "z96APB6BLCs",
+            "timeStamp": 9045
+        },
+        {
+            "shulk": "Kome",
+            "opponent": "Tiger",
+            "id": "H4Ogs4hlurg",
+            "timeStamp": null
+        }
+    ]
+}
