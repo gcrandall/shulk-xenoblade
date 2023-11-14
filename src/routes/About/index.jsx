@@ -27,6 +27,7 @@ function About(props) {
                                         <Col xs="12">
                                             <p className="small">ShulkXenoblade.com is a web app meant to provide easy access to matchup-specific information for Shulk in Super Smash Bros. Ultimate. In a game with 80+ matchups, it's simply unreasonable to expect yourself to be able to remember everything at any one time.</p>
                                             <p className="small">This web app seeks to help Shulk players by allowing them to quickly reference everything they are most likely to need before a set, all in one place.</p>
+                                            <p className="small">The source code for this app can be viewed in the <a href="https://github.com/gcrandall/shulk-xenoblade">GitHub Repository</a>.</p>
                                         </Col>
                                     </Row>
                                 </Container>
