@@ -1,6 +1,6 @@
 # ShulkXenoblade.com
 
-This repository contains the source code for [https://shulkxenoblade.com](ShulkXenoblade.com).
+This repository contains the source code for [ShulkXenoblade.com](https://shulkxenoblade.com).
 
 ## Available Scripts
 
