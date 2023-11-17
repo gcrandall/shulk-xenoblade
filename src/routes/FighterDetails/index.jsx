@@ -72,7 +72,7 @@ function FighterDetails(props) {
     const loadInheritedData = () => {
         let sameParent = (details.inheritNotesFrom === details.inheritVodsFrom);
         if (details.inheritNotesFrom != null) {
-            import(`../../data/fighters/${details.inheritNotesFrom}`)
+            import(`../../data/fighters/${details.inheritNotesFrom}.json`)
                 .then((data) => {
                     setBasicNotes(data.notesShort);
                     if (sameParent) {
@@ -82,7 +82,7 @@ function FighterDetails(props) {
                 .catch((error) => {console.log("Error loading inherited notes", error); setErrorLoadingData(true)});
         }
         if (!sameParent && (details.inheritVodsFrom !== null)) {
-            import(`../../data/fighters/${details.inheritVodsFrom}`)
+            import(`../../data/fighters/${details.inheritVodsFrom}.json`)
                 .then((data) => setVods(data.vods))
                 .catch((error) => {console.log("Error loading inherited vods", error); setErrorLoadingData(true)});
         }
