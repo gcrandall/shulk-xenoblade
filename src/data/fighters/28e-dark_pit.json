@@ -1,5 +1,5 @@
 {
-    "inheritNotesFrom": "28-pit.json",
+    "inheritNotesFrom": "28-pit",
     "notesShort": [],
 
     "busterDthrowComboTree": {
@@ -37,6 +37,6 @@
         "cornerBusterPivotDsmashShieldBreak": true
     },
 
-    "inheritVodsFrom": "28-pit.json",
+    "inheritVodsFrom": "28-pit",
     "vods": []
 }

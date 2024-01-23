@@ -1,5 +1,5 @@
 {
-    "inheritNotesFrom": "04-samus.json",
+    "inheritNotesFrom": "04-samus",
     "notesShort": null,
 
     "busterDthrowComboTree": {
@@ -32,6 +32,6 @@
         "cornerBusterPivotDsmashShieldBreak": true
     },
 
-    "inheritVodsFrom": "04-samus.json",
+    "inheritVodsFrom": "04-samus",
     "vods": null
 }

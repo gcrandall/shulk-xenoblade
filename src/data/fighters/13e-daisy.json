@@ -1,5 +1,5 @@
 {
-    "inheritNotesFrom": "13-peach.json",
+    "inheritNotesFrom": "13-peach",
     "notesShort": null,
 
     "busterDthrowComboTree": {
@@ -29,6 +29,6 @@
         "cornerBusterPivotDsmashShieldBreak": true
     },
 
-    "inheritVodsFrom": "13-peach.json",
+    "inheritVodsFrom": "13-peach",
     "vods": null
 }

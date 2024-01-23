@@ -1,5 +1,5 @@
 {
-    "inheritNotesFrom": "33-squirtle.json",
+    "inheritNotesFrom": "33-squirtle",
     "notesShort": [
         
     ],
@@ -38,6 +38,6 @@
         "cornerBusterPivotDsmashShieldBreak": true
     },
 
-    "inheritVodsFrom": "33-squirtle.json",
+    "inheritVodsFrom": "33-squirtle",
     "vods": []
 }

@@ -1,5 +1,5 @@
 {
-    "inheritNotesFrom": "66-simon.json",
+    "inheritNotesFrom": "66-simon",
     "notesShort": [],
 
     "busterDthrowComboTree": {
@@ -36,6 +36,6 @@
         "cornerBusterPivotDsmashShieldBreak": true
     },
 
-    "inheritVodsFrom": "66-simon.json",
+    "inheritVodsFrom": "66-simon",
     "vods": []
 }
