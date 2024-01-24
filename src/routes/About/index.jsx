@@ -98,12 +98,6 @@ function About(props) {
                                                     <a href="https://docs.google.com/document/d/1GZq4ZBdH4HoPkVnXrRUAkY0DcX4Pq67fiC9lTFZnSDY/edit" target="_blank" rel="noreferrer">Dusty Carpet's Diddy Write-up</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://docs.google.com/document/d/1UHhTSu5oelqm587bx6i3EM9v20MXvi0USCONnxe85II/edit" target="_blank" rel="noreferrer">Vedhan's ROB Write-Up</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://docs.google.com/document/d/1BBugC-tZ7CFJ_KMI1ebB9wshQNMAuanQG5Im9qfJhlI/edit" target="_blank" rel="noreferrer">Vedhan's Palutena Write-Up</a>
-                                                </li>
-                                                <li>
                                                     <a href="https://drive.google.com/file/d/1wvtNefJAwxP3TqTf-86lXS15GWsWTqou/view?usp=sharing" target="_blank" rel="noreferrer">Uzair's Wolf Write-Up</a>
                                                 </li>
                                                 <li>
