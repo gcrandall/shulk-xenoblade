@@ -137,6 +137,15 @@
                 background-color: #8bb80e;
                 border-color: #feff8a;
             }
+            &[target="_blank"] {
+                span {
+                    &::after {
+                        @include fontello-base;
+                        @include fontello-icon($icon-link-ext);
+                        margin-left: 0.5em;
+                    }
+                }
+            }
         }
     }
     &__content {

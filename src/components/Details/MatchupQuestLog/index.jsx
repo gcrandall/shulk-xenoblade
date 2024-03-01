@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
-import ReactMarkdown from 'react-markdown';
+import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeExternalLinks from 'rehype-external-links';
 
 import { getWeightClass } from "../../../data/fighterList";
 
@@ -124,10 +125,11 @@ function MatchupQuestLog(props) {
         notesMarkup.push(
             <li key={`notes-${i}`}>
                 {/* {notes[i]} */}
-                <ReactMarkdown
+                <Markdown
                     children={notes[i]}
                     allowedElements={["p", "strong", "em", "a", "del"]}
                     remarkPlugins={[remarkGfm]}
+                    rehypePlugins={[[rehypeExternalLinks, {target: "_blank"}]]}
                 />
             </li>
         );

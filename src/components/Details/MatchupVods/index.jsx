@@ -60,7 +60,8 @@ function MatchupVods(props) {
         <>
             <section className="c-card">
                 <h2 className="c-card__header">VODs ({vods.length})</h2>
-                <a href="https://forms.gle/tCGt8sYxRBjeJqNJ8" className="btn mb-2 ms-2 me-2" target="_blank" rel="noreferrer">
+                
+                <a href="https://forms.gle/tCGt8sYxRBjeJqNJ8" className="btn mb-2 ms-2 me-2 link-ext" target="_blank" rel="noreferrer">
                     Submit VODs
                 </a>
 

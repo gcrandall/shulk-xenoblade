@@ -18,6 +18,21 @@
 	color: rgba($body-color, 0.3) !important;
 }
 
+
+//--------------------------------------------------
+// EXTERNAL LINK HELPER
+//--------------------------------------------------
+
+.link-ext {
+	&::after {
+		@include fontello-base;
+		@include fontello-icon($icon-link-ext);
+		margin-left: 0.4em;
+		text-decoration: none !important;
+	}
+}
+
+
 // ------------------------------------
 // RESPONSIVE MIXINS
 // ------------------------------------

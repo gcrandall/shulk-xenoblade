@@ -35,7 +35,7 @@ function SidebarNav(props) {
                 onClick={linkCallback}
                 key={`nav-intLink-${i}`}
             >
-                {internalLinks[i].title}
+                <span>{internalLinks[i].title}</span>
             </Link>
         );
     }
@@ -49,7 +49,7 @@ function SidebarNav(props) {
                 onClick={linkCallback}
                 key={`nav-extLink-${i}`}
             >
-                {externalLinks[i].title}
+                <span>{externalLinks[i].title}</span>
             </a>
         );
     }

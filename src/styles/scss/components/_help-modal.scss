@@ -49,8 +49,11 @@
         border: 4px solid $modal-backdrop-bg;
         outline: 2px solid $modal-border-color;
 
-        --bs-link-color: #86bcd9;
-        --bs-link-hover-color: #7bacc6;
+        --bs-link-color: #78a9c3;
+        --bs-link-hover-color: #5e8397;
+
+        //--bs-link-color: #d45c41;
+        //--bs-link-hover-color: #bd5238;
     }
     .modal-header {
         align-items: center;
@@ -93,6 +96,12 @@
         }
         p {
             font-size: 0.875rem;
+        }
+
+        a {
+            &[target="_blank"] {
+                @extend .link-ext;
+            }
         }
     }
 

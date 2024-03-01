@@ -16,5 +16,8 @@
         &:last-child {
             margin-bottom: 0;
         }
+        a[target="_blank"] {
+            @extend .link-ext;
+        }
     }
 }
