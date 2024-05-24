@@ -1,10 +1,15 @@
+// React
 import React from 'react';
 import { useState } from 'react';
+
+// Markdown
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeExternalLinks from 'rehype-external-links';
 
-import { getWeightClass } from "../../../data/fighterList";
+// Util
+import { getWeightClass } from '../../../data/fighterList';
+
 
 function MatchupQuestLog(props) {
 

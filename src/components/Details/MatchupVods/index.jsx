@@ -2,7 +2,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-import MatchupVodListing from "./MatchupVodListing";
+// Custom Components
+import MatchupVodListing from './MatchupVodListing';
 
 
 function MatchupVods(props) {

@@ -1,17 +1,15 @@
 // React
-import { useState, useEffect } from 'react';
-import { Outlet, useLocation } from "react-router-dom";
+import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
 
 // Bootstrap
 import { ThemeProvider } from 'react-bootstrap';
 
 // Custom Components
-import TitleBar from "../../components/Layout/TitleBar";
+import TitleBar from '../../components/Layout/TitleBar';
 import SidebarNav from '../../components/Layout/SidebarNav';
-import Footer from "../../components/Layout/Footer";
+import Footer from '../../components/Layout/Footer';
 
-// Analytics
-import ReactGA from "react-ga4";
 
 function Layout() {
 
@@ -20,12 +18,6 @@ function Layout() {
     //--------------------------------------------------
 
     const [sidebarExpanded, setSidebarExpanded] = useState(false);
-
-    // Google Analytics
-    let location = useLocation();
-    useEffect(() => {
-        ReactGA.send({ hitType: "pageview", page: location.pathname });
-    }, [location]);
 
 
     //--------------------------------------------------

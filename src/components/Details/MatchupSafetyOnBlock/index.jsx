@@ -1,10 +1,14 @@
+// React
 import { useState, useEffect } from 'react';
 
+// Custom Components
 import ArtSelector from './ArtSelector';
-import ValueIcon from "../ValueIcon";
+import ValueIcon from '../ValueIcon';
 
+// Data
 import frameData from '../../../data/frameData.json';
 import monadoArtSafety from '../../../data/monadoArtSafety.json';
+
 
 function MatchupSafetyOnBlock(props) {
 

@@ -1,7 +1,8 @@
 // React
 import React  from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
+// Fighter Data
 import { getWeightClass } from '../../../data/fighterList';
 
 

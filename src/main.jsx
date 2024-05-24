@@ -19,7 +19,7 @@ import FighterDetails, {
 } from './routes/FighterDetails';
 
 // Analytics
-import ReactGA from "react-ga4";
+import ReactGA from 'react-ga4';
 ReactGA.initialize(import.meta.env.VITE_GOOGLE_ANALYTICS_API_KEY);
 
 const router = createBrowserRouter([

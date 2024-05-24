@@ -1,13 +1,12 @@
 // React
 import { useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 // Custom Components
 import HelpModal from './HelpModal';
 
 // Images
 import logo from '../../../assets/images/logo.svg';
-
 
 function TitleBar(props) {
 

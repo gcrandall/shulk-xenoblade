@@ -1,4 +1,6 @@
-import ValueIcon from "../ValueIcon";
+// Custom Components
+import ValueIcon from '../ValueIcon';
+
 
 function MatchupLedgeOptions(props) {
 

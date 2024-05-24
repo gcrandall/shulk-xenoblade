@@ -1,13 +1,13 @@
 // React
 import { useState, useEffect } from 'react';
-import { useNavigate, Outlet } from "react-router-dom";
+import { useNavigate, Outlet } from 'react-router-dom';
 
 // Custom Components
-import SearchSortControls from "../../components/Main/SearchSortControls";
-import FighterGrid from "../../components/Main/FighterGrid";
+import SearchSortControls from '../../components/Main/SearchSortControls';
+import FighterGrid from '../../components/Main/FighterGrid';
 
 // Data
-import { getFighterList } from "../../data/fighterList";
+import { getFighterList } from '../../data/fighterList';
 
 // Search
 import { matchesSearchQuery } from '../../util/utilMethods';

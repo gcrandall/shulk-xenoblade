@@ -1,7 +1,7 @@
 // React
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { useNavigate, useLoaderData } from "react-router-dom";
+import { useNavigate, useLoaderData } from 'react-router-dom';
 
 // Bootstrap
 import Container from 'react-bootstrap/Container';
@@ -10,7 +10,6 @@ import Col from 'react-bootstrap/Col';
 
 // Custom Components
 import LoadingScreen from '../../components/Layout/LoadingScreen';
-
 import MatchupQuestLog from '../../components/Details/MatchupQuestLog';
 import MatchupBusterDthrowWindows from '../../components/Details/MatchupBusterDthrowWindows';
 import MatchupLedgeOptions from '../../components/Details/MatchupLedgeOptions';
@@ -19,6 +18,7 @@ import MatchupVods from '../../components/Details/MatchupVods';
 
 // Data
 import { getFighter } from '../../data/fighterList';
+
 
 export async function loader({ params }) {
     return getFighter(params.fighterId);
