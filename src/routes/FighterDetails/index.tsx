@@ -1,5 +1,4 @@
 // React
-import React from 'react';
 import { useState, useEffect } from 'react';
 import { useNavigate, useLoaderData } from 'react-router-dom';
 
@@ -18,32 +17,30 @@ import MatchupVods from '../../components/Details/MatchupVods';
 
 // Data
 import { getFighter } from '../../data/fighterList';
+import type { FighterData, FighterListing, FighterVod } from '../../data/dataTypes';
 
 
-export async function loader({ params }) {
+export async function loader({ params }: any) {
     return getFighter(params.fighterId);
 }
 
 
-function FighterDetails(props) {
+const FighterDetails = () => {
 
     //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
+    // BASIC VARIABLES
     //--------------------------------------------------
 
-    const fighter = useLoaderData();
+    const fighter = useLoaderData() as FighterListing;
     const navigate = useNavigate();
 
-    const [details, setDetails] = useState(null);
-    const [basicNotes, setBasicNotes] = useState(null);
-    const [vods, setVods] = useState(null);
+    const [details, setDetails] = useState<FighterData | null>(null);
+    const [basicNotes, setBasicNotes] = useState<string[] | null>(null);
+    const [vods, setVods] = useState<FighterVod[] | null>(null);
     const [errorLoadingData, setErrorLoadingData] = useState(false);
 
     // Determine whether to stop showing loading screen
     let finishedLoading = ((details != null) && (basicNotes != null) && (vods != null));
-
-    // Character portrait
-    const portrait = `/images/fighters/portrait/${fighter?.image}`;
 
     useEffect(() => {
         if (fighter != null) {
@@ -70,8 +67,8 @@ function FighterDetails(props) {
     }, [details]);
 
     const loadInheritedData = () => {
-        let sameParent = (details.inheritNotesFrom === details.inheritVodsFrom);
-        if (details.inheritNotesFrom != null) {
+        let sameParent = (details?.inheritNotesFrom === details?.inheritVodsFrom);
+        if (details?.inheritNotesFrom != null) {
             import(`../../data/fighters/${details.inheritNotesFrom}.json`)
                 .then((data) => {
                     setBasicNotes(data.notesShort);
@@ -81,8 +78,8 @@ function FighterDetails(props) {
                 })
                 .catch((error) => {console.log("Error loading inherited notes", error); setErrorLoadingData(true)});
         }
-        if (!sameParent && (details.inheritVodsFrom !== null)) {
-            import(`../../data/fighters/${details.inheritVodsFrom}.json`)
+        if (!sameParent && (details?.inheritVodsFrom !== null)) {
+            import(`../../data/fighters/${details?.inheritVodsFrom}.json`)
                 .then((data) => setVods(data.vods))
                 .catch((error) => {console.log("Error loading inherited vods", error); setErrorLoadingData(true)});
         }
@@ -136,10 +133,10 @@ function FighterDetails(props) {
                 <Container>
                     <Row className="d-flex align-items-stretch">
                         <Col xs="12" md="6">
-                            <MatchupBusterDthrowWindows data={details.busterDthrowComboTree} />
+                            <MatchupBusterDthrowWindows data={details?.busterDthrowComboTree} />
                         </Col>
                         <Col xs="12" md="6">
-                            <MatchupLedgeOptions data={details.ledgeOptions} />
+                            <MatchupLedgeOptions data={details?.ledgeOptions} />
                         </Col>
                     </Row>
                 </Container>

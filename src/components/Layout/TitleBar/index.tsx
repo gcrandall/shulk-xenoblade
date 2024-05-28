@@ -8,9 +8,12 @@ import HelpModal from './HelpModal';
 // Images
 import logo from '../../../assets/images/logo.svg';
 
-function TitleBar(props) {
+type TitleBarProps = {
+    menuExpanded: boolean;
+    menuButtonCallback: () => void;
+}
 
-    const { menuExpanded, menuButtonCallback } = props;
+const TitleBar = ({ menuExpanded, menuButtonCallback }: TitleBarProps) => {
 
     const [showHelp, setShowHelp] = useState(false);
 

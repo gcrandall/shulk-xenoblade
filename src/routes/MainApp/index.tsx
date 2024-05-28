@@ -8,6 +8,7 @@ import FighterGrid from '../../components/Main/FighterGrid';
 
 // Data
 import { getFighterList } from '../../data/fighterList';
+import type { FighterListing, SortOption } from '../../data/dataTypes';
 
 // Search
 import { matchesSearchQuery } from '../../util/utilMethods';
@@ -21,11 +22,10 @@ import {
     sortFightersByEscapeOption
 } from '../../util/sortMethods';
 
-
-function MainApp(props) {
+const MainApp = () => {
 
     //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
+    // BASIC VARIABLES
     //--------------------------------------------------
 
     const [searchTerm, setSearchTerm] = useState("");
@@ -38,26 +38,26 @@ function MainApp(props) {
         document.title = "ShulkXenoblade.com";
     }, []);
 
-    const sortOptions = [
+    const sortOptions: SortOption[] = [
         {
             name: "Release",
-            sortOrder: (a, b) => sortFightersByReleaseNumber(a, b, reverseSort)
+            sortOrder: (a: FighterListing, b: FighterListing) => sortFightersByReleaseNumber(a, b, reverseSort)
         },
         {
             name: "Name",
-            sortOrder: (a, b) => sortFightersByName(a, b, reverseSort)
+            sortOrder: (a: FighterListing, b: FighterListing) => sortFightersByName(a, b, reverseSort)
         },
         {
             name: "Weight",
-            sortOrder: (a, b) => sortFightersByWeight(a, b, reverseSort)
+            sortOrder: (a: FighterListing, b: FighterListing) => sortFightersByWeight(a, b, reverseSort)
         },
         {
             name: "Fall Speed",
-            sortOrder: (a, b) => sortFightersByFallSpeed(a, b, reverseSort)
+            sortOrder: (a: FighterListing, b: FighterListing) => sortFightersByFallSpeed(a, b, reverseSort)
         },
         {
             name: "Fastest Escape Option",
-            sortOrder: (a, b) => sortFightersByEscapeOption(a, b, reverseSort)
+            sortOrder: (a: FighterListing, b: FighterListing) => sortFightersByEscapeOption(a, b, reverseSort)
         },
     ];
 

@@ -1,18 +1,15 @@
 // React
-import React  from 'react';
 import { Link } from 'react-router-dom';
 
 // Fighter Data
+import type { FighterListing } from '../../../data/dataTypes';
 import { getWeightClass } from '../../../data/fighterList';
 
+type FighterCardProps = {
+    fighter: FighterListing;
+}
 
-function FighterCard(props) {
-
-    //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
-    //--------------------------------------------------
-
-    const { fighter } = props;
+const FighterCard = ({ fighter }: FighterCardProps) => {
 
     const portrait = `/images/fighters/tile/${fighter.image}`;
 
@@ -21,10 +18,6 @@ function FighterCard(props) {
             <Link to={`/details/${fighter?.id}`} className="text-decoration-none">
                 <div className="c-card c-fighter-card">
                     <img src={portrait} className="c-fighter-card__portrait" alt=""/>
-                    
-                    {/* <span className="c-fighter-card__divider">
-                        <span></span>
-                    </span> */}
                     <div className="c-fighter-card__details">
                         <h2 className="c-fighter-card__title">
                             <div className="c-fighter-card__num" title="Weight Class">{getWeightClass(fighter?.weight)}</div>
@@ -35,10 +28,6 @@ function FighterCard(props) {
                         </span>
                         <table>
                             <tbody>
-                                {/* <tr>
-                                    <th>Wgt</th>
-                                    <td>{fighter?.weight}</td>
-                                </tr> */}
                                 <tr>
                                     <th>Esc</th>
                                     <td>{fighter?.escape}</td>

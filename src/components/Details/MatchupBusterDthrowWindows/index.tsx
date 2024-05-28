@@ -1,16 +1,19 @@
-// React
+// Data
+import type { FighterBusterDthrowComboTree } from '../../../data/dataTypes';
 
-function MatchupBusterDthrowWindows(props) {
+type MatchupBusterDthrowWindowsProps = {
+    data: FighterBusterDthrowComboTree | undefined;
+}
 
-    const { data } = props;
+const MatchupBusterDthrowWindows = ({ data }: MatchupBusterDthrowWindowsProps) => {
 
     if (!data) {
         return <></>;
     }
 
-    const createWindowsMarkup = (arr) => {
+    const createWindowsMarkup = (arr: number[][]): JSX.Element[] => {
         if ( (arr.length === 0) || ((arr.length === 1) && (arr[0].length === 0)) ) {
-            return <span className="text-light" key="na">N/A</span>
+            return [<span className="text-light" key="na">N/A</span>];
         }
 
         const markup = arr.map((x, i) => {

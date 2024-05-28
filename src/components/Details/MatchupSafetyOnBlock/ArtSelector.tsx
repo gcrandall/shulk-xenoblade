@@ -1,40 +1,38 @@
-function ArtSelector(props) {
+type ArtSelectorProps = {
+    art: string;
+    callback: Function;
+}
 
-    //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
-    //--------------------------------------------------
+const ArtSelector = ({ art, callback }: ArtSelectorProps) => {
 
-    const { art, callback } = props;
-
-    const artDefinitions = [
-        {name: "Vanilla", icon: "icon-x"},
-        {name: "Jump", icon: "icon-monado-jump"},
-        {name: "Speed", icon: "icon-monado-speed"},
-        {name: "Shield", icon: "icon-monado-shield"},
-        {name: "Buster", icon: "icon-monado-buster"},
-        {name: "Smash", icon: "icon-monado-smash"},
+    const artDefinitions: Array<{ name: string; icon: string; }> = [
+        {name: "Vanilla",   icon: "icon-x"},
+        {name: "Jump",      icon: "icon-monado-jump"},
+        {name: "Speed",     icon: "icon-monado-speed"},
+        {name: "Shield",    icon: "icon-monado-shield"},
+        {name: "Buster",    icon: "icon-monado-buster"},
+        {name: "Smash",     icon: "icon-monado-smash"},
     ]
 
-    const buttonsMarkup = [];
-    for (let i = 0; i < artDefinitions.length; i++) {
-        buttonsMarkup.push(
+    const buttonElements = artDefinitions.map((artDef) => {
+        return (
             <button
                 type="button"
-                title={artDefinitions[i].name}
-                className={`${artDefinitions[i].icon}${(art === artDefinitions[i].name) ? " active" : ""}`}
-                onClick={() => callback(artDefinitions[i].name)}
-                key={`monado-art-${artDefinitions[i].name}`}
+                title={artDef.name}
+                className={`${artDef.icon}${(art === artDef.name) ? " active" : ""}`}
+                onClick={() => callback(artDef.name)}
+                key={`monado-art-${artDef.name}`}
             >
-                <span className="visually-hidden">{artDefinitions[i].name}</span>
+                <span className="visually-hidden">{artDef.name}</span>
             </button>
-        );
-    }
+        )
+    });
 
 
     return (
         <>
             <div className="c-safety-calc__arts">
-                {buttonsMarkup}
+                {buttonElements}
             </div>
         </>
     );

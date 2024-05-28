@@ -1,4 +1,6 @@
-const FIGHTER_LIST = [
+import type { FighterListing } from './dataTypes';
+
+const FIGHTER_LIST: FighterListing[] = [
     {
         id: "mario",
         number: "01",
@@ -42,7 +44,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "samus",
@@ -57,7 +59,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "dark_samus",
@@ -72,7 +74,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "yoshi",
@@ -87,7 +89,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 1,
         escapeName: "D.Jump",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "kirby",
@@ -102,7 +104,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "fox",
@@ -117,7 +119,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 2,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "pikachu",
@@ -132,7 +134,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 2,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "luigi",
@@ -147,7 +149,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 1,
         escapeName: "Cyclone",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "ness",
@@ -162,7 +164,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "captain_falcon",
@@ -177,7 +179,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "jigglypuff",
@@ -192,7 +194,7 @@ const FIGHTER_LIST = [
         airdodge: 4,
         escape: 1,
         escapeName: "Rest",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "peach",
@@ -237,7 +239,7 @@ const FIGHTER_LIST = [
         airdodge: 4,
         escape: 4,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "ice_climbers",
@@ -267,7 +269,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 2,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "zelda",
@@ -282,7 +284,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "dr_mario",
@@ -312,7 +314,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 2,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "falco",
@@ -387,7 +389,7 @@ const FIGHTER_LIST = [
         airdodge: 4,
         escape: 4,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "mewtwo",
@@ -402,7 +404,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "roy",
@@ -477,7 +479,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "dark_pit",
@@ -492,7 +494,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "zss",
@@ -522,7 +524,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "snake",
@@ -537,7 +539,7 @@ const FIGHTER_LIST = [
         airdodge: 4,
         escape: 1,
         escapeName: "Grenade",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "ike",
@@ -548,11 +550,11 @@ const FIGHTER_LIST = [
         ufd: "https://ultimateframedata.com/ike",
         dragdown: "https://dragdown.wiki/wiki/SSBU/Ike",
         weight: 107,
-        fallSpeed: "1.65",
+        fallSpeed: 1.65,
         airdodge: 4,
         escape: 4,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "squirtle",
@@ -612,7 +614,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 2,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "lucas",
@@ -627,7 +629,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "sonic",
@@ -642,7 +644,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 2,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "king_dedede",
@@ -687,7 +689,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "rob",
@@ -732,7 +734,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 2,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "villager",
@@ -747,7 +749,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 1,
         escapeName: "Lloid",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "mega_man",
@@ -807,7 +809,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 1,
         escapeName: "Up-B",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "greninja",
@@ -822,7 +824,7 @@ const FIGHTER_LIST = [
         airdodge: 2,
         escape: 2,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "mii_brawler",
@@ -837,7 +839,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 2,
         escapeName: "Feint Jump",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "mii_sword",
@@ -852,7 +854,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "mii_gunner",
@@ -882,7 +884,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "pac_man",
@@ -912,7 +914,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 1,
         escapeName: "Tome",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "shulk",
@@ -927,7 +929,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "bowser_jr",
@@ -1002,7 +1004,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "corrin",
@@ -1017,7 +1019,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "bayonetta",
@@ -1032,7 +1034,7 @@ const FIGHTER_LIST = [
         airdodge: 5,
         escape: 1,
         escapeName: "Bats",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "inkling",
@@ -1047,7 +1049,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "ridley",
@@ -1062,7 +1064,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "simon",
@@ -1122,7 +1124,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "incineroar",
@@ -1137,7 +1139,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "piranha_plant",
@@ -1152,7 +1154,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "joker",
@@ -1167,7 +1169,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "hero",
@@ -1227,7 +1229,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "min_min",
@@ -1272,7 +1274,7 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
     {
         id: "pyra",
@@ -1332,16 +1334,16 @@ const FIGHTER_LIST = [
         airdodge: 3,
         escape: 3,
         escapeName: "Airdodge",
-        searchTerms: null
+        searchTerms: ""
     },
 ];
 
-export function getFighterList() {
+export function getFighterList(): FighterListing[] {
     return FIGHTER_LIST;
 }
 
-export function getFighter(fighterId) {
-    const filtered = FIGHTER_LIST.filter(f => f.id === fighterId);
+export function getFighter(fighterId: string): FighterListing | null {
+    const filtered: FighterListing[] = FIGHTER_LIST.filter(f => f.id === fighterId);
     if (filtered.length > 0) {
         return Object.freeze(filtered[0]);
     } else {
@@ -1349,7 +1351,7 @@ export function getFighter(fighterId) {
     }
 }
 
-export function getWeightClass(weight) {
+export function getWeightClass(weight: number): string {
     if (weight < 70) {
         return "Balloon";
     } else if (weight < 80) {

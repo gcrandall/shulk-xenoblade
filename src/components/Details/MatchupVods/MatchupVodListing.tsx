@@ -1,10 +1,11 @@
-// React
-import React from 'react';
+// Data
+import { FighterVodDetailed } from '../../../data/dataTypes';
 
+type MatchupVodListingProps = {
+    vod: FighterVodDetailed;
+}
 
-function MatchupVodListing(props) {
-
-    const { vod } = props;
+const MatchupVodListing = ({ vod }: MatchupVodListingProps) => {
 
     const vodSnippet = vod.snippet;
     const dateString = new Date(vodSnippet.publishedAt).toLocaleDateString();

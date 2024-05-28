@@ -1,37 +1,45 @@
-// React
-import React from 'react';
-
 // Bootstrap
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+// Data
+import type { SortOption } from '../../../data/dataTypes';
 
-function SearchSortControls(props) {
+type SearchSortControlsProps = {
+    searchTerm: string;
+    sortOrder: number;
+    reverseSort: boolean;
+    sortOptions: SortOption[];
+    searchCallback: (val: string) => void;
+    searchEnterCallback: () => void;
+    sortCallback: (val: number) => void;
+    reverseSortCallback: () => void;
+    clearCallback: () => void;
+}
 
-    const {
-        searchTerm,
-        sortOrder,
-        reverseSort,
-        sortOptions,
-        searchCallback,
-        searchEnterCallback,
-        sortCallback,
-        reverseSortCallback,
-        clearCallback
-    } = props;
+const SearchSortControls = ({
+    searchTerm,
+    sortOrder,
+    reverseSort,
+    sortOptions,
+    searchCallback,
+    searchEnterCallback,
+    sortCallback,
+    reverseSortCallback,
+    clearCallback
+}: SearchSortControlsProps) => {
 
-    let sortOptionsMarkup = [];
-    for (let i = 0; i < sortOptions.length; i++) {
-        sortOptionsMarkup.push(
-            <option key={`sort-option-${i}`} value={i}>{sortOptions[i].name}</option>
+    let sortOptionsMarkup = sortOptions.map((option, i) => {
+        return (
+            <option key={`sort-option-${i}`} value={i}>{option.name}</option>
         );
-    }
+    })
 
     // Callback on pressing enter when searching
-    const searchKeyDownHandler = (event) => {
-        if (event.key === "Enter") {
-            searchEnterCallback(searchTerm);
+    const searchKeyDownHandler = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === "Enter") {
+            searchEnterCallback();
         }
     }
 

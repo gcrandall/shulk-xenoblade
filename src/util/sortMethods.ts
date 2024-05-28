@@ -1,3 +1,5 @@
+import type { FighterListing } from "../data/dataTypes";
+
 //--------------------------------------------------
 // FIGHTER SORT ORDERS
 //      Methods for use in Array.prototype.sort()
@@ -13,7 +15,7 @@
  * @param reverseOrder boolean to optionally reverse default order
  * @returns {number} sort value
  */
- export function sortFightersByReleaseNumber(a, b, reverseOrder) {
+ export function sortFightersByReleaseNumber(a: FighterListing, b: FighterListing, reverseOrder: boolean): number {
     let returnVal = a.number.localeCompare(b.number);
     return (reverseOrder) ? (returnVal * -1) : returnVal;
 }
@@ -25,7 +27,7 @@
  * @param reverseOrder boolean to optionally reverse default order
  * @returns {number} sort value
  */
-export function sortFightersByName(a, b, reverseOrder) {
+export function sortFightersByName(a: FighterListing, b: FighterListing, reverseOrder: boolean): number {
     let returnVal = a.name.localeCompare(b.name);
     return (reverseOrder) ? (returnVal * -1) : returnVal;
 }
@@ -37,7 +39,7 @@ export function sortFightersByName(a, b, reverseOrder) {
  * @param reverseOrder boolean to optionally reverse default order
  * @returns {number} sort value
  */
- export function sortFightersByWeight(a, b, reverseOrder) {
+ export function sortFightersByWeight(a: FighterListing, b: FighterListing, reverseOrder: boolean): number {
     let returnVal = sortFightersByName(a, b, false);
     if (a.weight > b.weight) {
         returnVal = 1;
@@ -54,7 +56,7 @@ export function sortFightersByName(a, b, reverseOrder) {
  * @param reverseOrder boolean to optionally reverse default order
  * @returns {number} sort value
  */
- export function sortFightersByFallSpeed(a, b, reverseOrder) {
+ export function sortFightersByFallSpeed(a: FighterListing, b: FighterListing, reverseOrder: boolean): number {
     let returnVal = sortFightersByName(a, b, false);
     if (a.fallSpeed > b.fallSpeed) {
         returnVal = 1;
@@ -71,7 +73,7 @@ export function sortFightersByName(a, b, reverseOrder) {
  * @param reverseOrder boolean to optionally reverse default order
  * @returns {number} sort value
  */
-export function sortFightersByAirdodge(a, b, reverseOrder) {
+export function sortFightersByAirdodge(a: FighterListing, b: FighterListing, reverseOrder: boolean): number {
     let returnVal = sortFightersByName(a, b, false);
     if (a.airdodge > b.airdodge) {
         returnVal = 1;
@@ -88,7 +90,7 @@ export function sortFightersByAirdodge(a, b, reverseOrder) {
  * @param reverseOrder boolean to optionally reverse default order
  * @returns {number} sort value
  */
- export function sortFightersByEscapeOption(a, b, reverseOrder) {
+ export function sortFightersByEscapeOption(a: FighterListing, b: FighterListing, reverseOrder: boolean): number {
     let returnVal = sortFightersByAirdodge(a, b, false);
     if (a.escape > b.escape) {
         returnVal = 1;

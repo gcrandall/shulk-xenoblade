@@ -1,18 +1,12 @@
-// React
-import React from 'react';
-
 // Bootstrap
 import Modal from 'react-bootstrap/Modal';
 
+type HelpModalProps = {
+    show: boolean;
+    handleClose: () => void;
+}
 
-function HelpModal(props) {
-
-    //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
-    //--------------------------------------------------
-
-    const { show, handleClose } = props;
-
+const HelpModal = ({ show, handleClose }: HelpModalProps) => {
 
     return (
         <>

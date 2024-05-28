@@ -1,6 +1,19 @@
-function ValueIcon(props) {
+type ValueIconProps = {
+    value: boolean | null;
+    className?: string;
+}
 
-    const { value, className } = props;
+type IconDefinition = {
+    title: string;
+    icon: string;
+    color: string;
+}
+
+type IconCollection = {
+    [key: string]: IconDefinition;
+}
+
+const ValueIcon = ({ value, className }: ValueIconProps) => {
 
     if ( value == null) {
         return (
@@ -8,24 +21,26 @@ function ValueIcon(props) {
         );
     }
 
-    const icons = {};
-    icons[false] = {
+    const icons: IconCollection = {};
+    icons["false"] = {
         title: "No",
         icon: "icon-false",
         color: "text-no"
     };
-    icons[true] = {
+    icons["true"] = {
         title: "Yes",
         icon: "icon-true",
         color: "text-yes"
     };
 
-    let classes = `${icons[value].icon} ${icons[value].color} ${className}`;
+    let valueString = (value) ? "true" : "false";
+
+    let classes = `${icons[valueString].icon} ${icons[valueString].color} ${className}`;
     classes = classes.trim();
 
     return (
         <>
-            <i className={classes} title={icons[value].title}></i>
+            <i className={classes} title={icons[valueString].title}></i>
         </>
     );
 }

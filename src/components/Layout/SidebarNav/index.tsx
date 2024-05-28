@@ -1,23 +1,30 @@
 // React
 import { Link, useLocation } from 'react-router-dom';
 
+type SidebarNavProps = {
+    show: boolean;
+    linkCallback: () => void;
+}
 
-function SidebarNav(props) {
+type NavLink = {
+    title: string;
+    path: string;
+}
+
+const SidebarNav = ({ show, linkCallback }: SidebarNavProps) => {
 
     //--------------------------------------------------
     // BASIC PROPS & VARIABLES
     //--------------------------------------------------
 
-    const {show, linkCallback} = props;
-
     const currentPath = useLocation().pathname;
 
-    const internalLinks = [
+    const internalLinks: NavLink[] = [
         { title: "Home", path: "/" },
-        { title: "About/Credits", path: "/about" }
+        { title: "About / Credits", path: "/about" }
     ];
 
-    const externalLinks = [
+    const externalLinks: NavLink[] = [
         { title: "Dobercorgi", path: "https://dobercorgi.info" },
         { title: "Shulk Discord", path: "https://discord.com/invite/NpXtA3f" }
     ];
@@ -27,7 +34,7 @@ function SidebarNav(props) {
     // BUILD MARKUP
     //--------------------------------------------------
 
-    const linksMarkup = [];
+    const linksMarkup: JSX.Element[] = [];
 
     for (let i = 0; i < internalLinks.length; i++) {
         linksMarkup.push(

@@ -1,5 +1,4 @@
 // React
-import React from 'react';
 import { useState } from 'react';
 
 // Markdown
@@ -7,23 +6,32 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeExternalLinks from 'rehype-external-links';
 
+// Data
+import type { FighterListing } from '../../../data/dataTypes';
+
 // Util
 import { getWeightClass } from '../../../data/fighterList';
 
+type MatchupQuestLogProps = {
+    fighter: FighterListing;
+    notes: string[] | null;
+}
 
-function MatchupQuestLog(props) {
+const MatchupQuestLog = ({ fighter, notes }: MatchupQuestLogProps) => {
 
     //--------------------------------------------------
     // BASIC PROPS & VARIABLES
     //--------------------------------------------------
 
-    const { fighter, notes } = props;
-
     const [notesExpanded, setNotesExpanded] = useState(false);
+
+    if (!fighter || !notes) {
+        return <></>;
+    }
 
     const NOTES_DISPLAY_LIMIT = 5;
 
-    const customQuestNames = {
+    const customQuestNames: { [id: string] : string; } = {
         "mario":                "Mamma Mia!",
         "donkey_kong":          "Primate Triumvirate",
         "link":                 "A Hero's Welcome",
@@ -124,12 +132,11 @@ function MatchupQuestLog(props) {
 
     const portrait = `/images/fighters/portrait/${fighter.image}`;
 
-    const notesMarkup = [];
-    const notesRenderLimit = (notesExpanded) ? notes.length : Math.min(NOTES_DISPLAY_LIMIT, notes.length);
+    const notesElements: JSX.Element[] = [];
+    const notesRenderLimit: number = (notesExpanded) ? notes.length : Math.min(NOTES_DISPLAY_LIMIT, notes.length);
     for (let i = 0; i < notesRenderLimit; i++) {
-        notesMarkup.push(
+        notesElements.push(
             <li key={`notes-${i}`}>
-                {/* {notes[i]} */}
                 <Markdown
                     children={notes[i]}
                     allowedElements={["p", "strong", "em", "a", "del"]}
@@ -197,7 +204,7 @@ function MatchupQuestLog(props) {
                 <div className="c-quest-log__details">
                     <h3 className="c-quest-log__heading">Quest Details</h3>
                     <ul>
-                        {notesMarkup}
+                        {notesElements}
                     </ul>
                     {
                         (notes.length > NOTES_DISPLAY_LIMIT) &&

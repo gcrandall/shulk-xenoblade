@@ -6,27 +6,43 @@ import ArtSelector from './ArtSelector';
 import ValueIcon from '../ValueIcon';
 
 // Data
-import frameData from '../../../data/frameData.json';
-import monadoArtSafety from '../../../data/monadoArtSafety.json';
+import type { FighterListing, FrameDataFighter, FrameDataCollection, MonadoArtSafetyCollection } from '../../../data/dataTypes';
+import frameDataRaw from '../../../data/frameData.json';
+import monadoArtSafetyRaw from '../../../data/monadoArtSafety.json';
 
+type MatchupSafetyOnBlockProps = {
+    fighter: FighterListing;
+}
 
-function MatchupSafetyOnBlock(props) {
+type OutOfShieldOption = {
+    name: string;
+    startup: number;
+    addedFrames: number;
+}
+
+type OffensiveOption = {
+    name: string;
+    Adv_Collection: number[];
+}
+
+const MatchupSafetyOnBlock = ({ fighter }: MatchupSafetyOnBlockProps) => {
 
     //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
+    // BASIC VARIABLES
     //--------------------------------------------------
-
-    const { fighter } = props;
 
     const [offenseMode, setOffenseMode] = useState(true);
-    const [opponentOutOfShield, setOpponentOutOfShield] = useState(null);
-    const [opponentOffensiveMoves, setOpponentOffensiveMoves] = useState(null);
-    const [safestShulkMoves, setSafestShulkMoves] = useState(null);
+    const [opponentOutOfShield, setOpponentOutOfShield] = useState<OutOfShieldOption[]>([]);
+    const [opponentOffensiveMoves, setOpponentOffensiveMoves] = useState<OffensiveOption[]>([]);
+    const [safestShulkMoves, setSafestShulkMoves] = useState<string[]>([]);
     const [activeArt, setActiveArt] = useState("Vanilla");
+
+    const frameData = frameDataRaw as FrameDataCollection;
+    const monadoArtSafety = monadoArtSafetyRaw as MonadoArtSafetyCollection;
 
     const opponentPortrait = `/images/fighters/portrait/${fighter.image}`;
     const shulkPortrait = `/images/fighters/portrait/57.webp`;
-    const opponentData = frameData[fighter.frameDataName];
+    const opponentData: FrameDataFighter = frameData[fighter.frameDataName];
 
     const AIR_SLASH_STARTUP = 10;
     const JUMP_SQUAT_FRAMES = 3;
@@ -41,7 +57,7 @@ function MatchupSafetyOnBlock(props) {
 
     useEffect(() => {
         // Determine opponent's OOS options
-        let oos = [];
+        let oos: OutOfShieldOption[] = [];
         for (const [moveName, moveData] of Object.entries(opponentData.Moves)) {
             // Grab
             if ( moveName === "Grab" ) {
@@ -54,7 +70,10 @@ function MatchupSafetyOnBlock(props) {
             }
 
             // Direct out of shield options
-            if ( moveData["Out of Shield"] && (moveData["Startup_Collection"].length > 0) && (moveData["Startup_Collection"] !== "n/a")) {
+            if (
+                moveData["Out of Shield"]
+                && (moveData["Startup_Collection"].length > 0)
+            ) {
                 oos.push({
                     name: moveName,
                     startup: Math.min(...moveData["Startup_Collection"]),
@@ -67,7 +86,6 @@ function MatchupSafetyOnBlock(props) {
             if (
                 moveData["Air"]
                 && (moveData["Startup_Collection"].length > 0)
-                && (moveData["Startup_Collection"] !== "n/a")
                 && (moveData["Link Index"] === null)
             ) {
                 oos.push({
@@ -82,7 +100,6 @@ function MatchupSafetyOnBlock(props) {
             if (
                 moveData["Grounded"]
                 && (moveData["Startup_Collection"].length > 0)
-                && (moveData["Startup_Collection"] !== "n/a")
                 && (moveData["Link Index"] === null)
             ) {
                 oos.push({
@@ -94,15 +111,14 @@ function MatchupSafetyOnBlock(props) {
             }
         }
         oos.sort((a, b) => ((a.startup + a.addedFrames) > (b.startup + b.addedFrames)) ? 1 : -1);
-        // setOpponentOutOfShield(oos);
         setOpponentOutOfShield(
             [oos[0], oos[1], oos[2], oos[3], oos[4]]
         );
 
         // Determine opponent's offensive options
-        let offense = [];
+        let offense: OffensiveOption[] = [];
         for (const [moveName, moveData] of Object.entries(opponentData.Moves)) {
-            if ((moveData["Adv_Collection"].length > 0) && (moveData["Adv_Collection"] !== "n/a")) {
+            if ((moveData["Adv_Collection"].length > 0)) {
                 offense.push({
                     name: moveName,
                     Adv_Collection: moveData["Adv_Collection"]
@@ -115,8 +131,8 @@ function MatchupSafetyOnBlock(props) {
         setOpponentOffensiveMoves(offense);
 
         // Order Shulk's moves from safest to least safe
-        let safest = [];
-        for (const [moveName, moveData] of Object.entries(monadoArtSafety)) {
+        let safest: string[] = [];
+        for (const [moveName] of Object.entries(monadoArtSafety)) {
             safest.push(moveName);
         }
         safest.sort(
@@ -130,7 +146,7 @@ function MatchupSafetyOnBlock(props) {
     // BUILD MARKUP
     //--------------------------------------------------
 
-    const formatSafetyValues = (vals) => {
+    const formatSafetyValues = (vals: number[]): string => {
         let result = "";
         for (let i = 0; i < vals.length; i++) {
             result += vals[i];
@@ -143,7 +159,7 @@ function MatchupSafetyOnBlock(props) {
 
     let currentArt = (activeArt !== "Jump") ? activeArt : "Vanilla";
 
-    const attackerInteractionsMarkup = [];
+    const attackerInteractionsMarkup: JSX.Element[] = [];
     for (let i = 0; i < safestShulkMoves?.length; i++) {
         let safetyValues = monadoArtSafety[safestShulkMoves[i]][currentArt];
         let safestValue = Math.max(...safetyValues);
@@ -176,8 +192,8 @@ function MatchupSafetyOnBlock(props) {
         );
     }
 
-    const defenderInteractionsMarkup = [];
-    for (let i = 0; i < opponentOffensiveMoves?.length; i++) {
+    const defenderInteractionsMarkup: JSX.Element[] = [];
+    for (let i = 0; i < opponentOffensiveMoves.length; i++) {
         let safetyValues = opponentOffensiveMoves[i]["Adv_Collection"];
         let safestValue = Math.max(...safetyValues);
 
@@ -233,7 +249,7 @@ function MatchupSafetyOnBlock(props) {
                         offenseMode &&
                         <ArtSelector
                             art={activeArt}
-                            callback={(art) => setActiveArt(art)}
+                            callback={(art: string) => setActiveArt(art)}
                         />
                     }
 

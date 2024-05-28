@@ -1,11 +1,11 @@
 // React
-import React from 'react';
 import { useState } from 'react';
 
+type LoadingScreenProps = {
+    show: boolean;
+}
 
-function LoadingScreen(props) {
-
-    const { show } = props;
+const LoadingScreen = ({ show }: LoadingScreenProps) => {
 
     const [preventRender, setPreventRender] = useState(!show);
 

@@ -1,19 +1,23 @@
 // Custom Components
 import ValueIcon from '../ValueIcon';
 
+// Data
+import type { FighterLedgeOptions } from '../../../data/dataTypes';
 
-function MatchupLedgeOptions(props) {
+type MatchupLedgeOptionsProps = {
+    data: FighterLedgeOptions | undefined;
+}
 
-    const { data } = props;
+const MatchupLedgeOptions = ({ data }: MatchupLedgeOptionsProps) => {
 
     if (!data) {
         return <></>;
     }
 
-    const usmashNotesIncrement = (data.usmash.notes != null) ? 1 : 0;
-    const fsmashNotesIncrement = usmashNotesIncrement + ((data.fsmash.notes != null) ? 1 : 0);;
-    const dsmashNotesIncrement = fsmashNotesIncrement + ((data.cornerBusterPivotDsmashShieldBreakNotes != null) ? 1 : 0);
-    const dtiltNotesIncrement = dsmashNotesIncrement + ((data.dtilt.notes != null) ? 1 : 0);
+    const usmashNotesIncrement: number = (data.usmash.notes != null) ? 1 : 0;
+    const fsmashNotesIncrement: number = usmashNotesIncrement + ((data.fsmash.notes != null) ? 1 : 0);;
+    const dsmashNotesIncrement: number = fsmashNotesIncrement + ((data.cornerBusterPivotDsmashShieldBreakNotes != null) ? 1 : 0);
+    const dtiltNotesIncrement: number = dsmashNotesIncrement + ((data.dtilt.notes != null) ? 1 : 0);
 
     return (
         <>

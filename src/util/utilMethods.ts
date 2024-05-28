@@ -3,7 +3,7 @@
  * @param str String to check
  * @returns {boolean}
  */
- export function stringIsEmpty(str) {
+ export function stringIsEmpty(str: string): boolean {
     return (!str || str.trim().length === 0);
 }
 
@@ -13,7 +13,7 @@
  * @param fields Fields to search, represented as an array of strings
  * @returns {boolean}
  */
- export function matchesSearchQuery(query, fields) {
+ export function matchesSearchQuery(query: string, fields: string[]): boolean {
     let searchTerms = query.toLowerCase().split(" ");
     let testString = fields.join(" ").toLowerCase();
 

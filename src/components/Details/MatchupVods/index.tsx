@@ -1,17 +1,24 @@
 // React
-import React from 'react';
 import { useState, useEffect } from 'react';
 
 // Custom Components
 import MatchupVodListing from './MatchupVodListing';
 
+// Data
+import type { FighterVod, FighterVodDetailed, YouTubeVod } from '../../../data/dataTypes';
 
-function MatchupVods(props) {
+type MatchupVodsProps = {
+    vods: FighterVod[] | null;
+}
 
-    const { vods } = props;
+const MatchupVods = ({ vods }: MatchupVodsProps) => {
 
-    const [vodsData, setVodsData] = useState(null);
-    const [vodsCombinedData, setVodsCombinedData] = useState(null);
+    const [vodsData, setVodsData] = useState<YouTubeVod[] | null>(null);
+    const [vodsCombinedData, setVodsCombinedData] = useState<FighterVodDetailed[] | null>(null);
+
+    if (!vods) {
+        return <></>;
+    }
 
     useEffect(() => {
         let videoIds = "";
@@ -37,17 +44,15 @@ function MatchupVods(props) {
             return;
         }
 
-        let result = [];
-        for (let i = 0; i < vods.length; i++) {
-            let newVodObject = {
-                shulk: vods[i].shulk,
-                opponent: vods[i].opponent,
-                id: vods[i].id,
-                timeStamp: vods[i].timeStamp,
+        let result: FighterVodDetailed[] = vods.map((v, i) => {
+            return {
+                shulk: v.shulk,
+                opponent: v.opponent,
+                id: v.id,
+                timeStamp: v.timeStamp,
                 snippet: vodsData[i].snippet
-            };
-            result.push(newVodObject);
-        }
+            }
+        });
         result.sort(
             (a, b) => (
                 (new Date(a.snippet.publishedAt).getTime()) < (new Date(b.snippet.publishedAt).getTime())

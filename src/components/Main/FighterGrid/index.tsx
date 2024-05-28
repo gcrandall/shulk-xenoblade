@@ -1,6 +1,3 @@
-// React
-import React from 'react';
-
 // Bootstrap
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -9,23 +6,22 @@ import Col from 'react-bootstrap/Col';
 // Custom Components
 import FighterCard from './FighterCard';
 
+// Data
+import type { FighterListing } from '../../../data/dataTypes';
 
-function FighterGrid(props) {
+type FighterGridProps = {
+    fighters: FighterListing[];
+}
 
-    //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
-    //--------------------------------------------------
+const FighterGrid = ({ fighters }: FighterGridProps) => {
 
-    const { fighters } = props;
-
-    const cards = [];
-    for (let i = 0; i < fighters.length; i++) {
-        cards.push(
-            <Col xs="12" md="6" xxl="4" xxxl="3" key={fighters[i].id}>
-                <FighterCard fighter={fighters[i]} />
+    const cards: JSX.Element[] = fighters.map((f) => {
+        return (
+            <Col xs="12" md="6" xxl="4" xxxl="3" key={f.id}>
+                <FighterCard fighter={f} />
             </Col>
         );
-    }
+    });
 
     if (cards.length === 0) {
         cards.push(

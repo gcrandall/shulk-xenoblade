@@ -14,7 +14,7 @@ import Footer from '../../components/Layout/Footer';
 function Layout() {
 
     //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
+    // BASIC VARIABLES
     //--------------------------------------------------
 
     const [sidebarExpanded, setSidebarExpanded] = useState(false);
@@ -24,15 +24,15 @@ function Layout() {
     // SWIPE DETECTION
     //--------------------------------------------------
 
-    const [touchStartX, setTouchStartX] = useState(null);
-    const [touchStartY, setTouchStartY] = useState(null);
-    const [touchEndX, setTouchEndX] = useState(null);
-    const [touchEndY, setTouchEndY] = useState(null);
+    const [touchStartX, setTouchStartX] = useState<number | null>(null);
+    const [touchStartY, setTouchStartY] = useState<number | null>(null);
+    const [touchEndX, setTouchEndX] = useState<number | null>(null);
+    const [touchEndY, setTouchEndY] = useState<number | null>(null);
 
     // Required distance between touchStart and touchEnd to be detected as a swipe
     const minSwipeDistance = 50;
 
-    const onTouchStart = (e) => {
+    const onTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
         // Prevent swipe from firing with usual touch events
         setTouchEndX(null);
         setTouchEndY(null);
@@ -41,7 +41,7 @@ function Layout() {
         setTouchStartY(e.targetTouches[0].clientY);
     }
 
-    const onTouchMove = (e) => {
+    const onTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
         setTouchEndX(e.targetTouches[0].clientX);
         setTouchEndY(e.targetTouches[0].clientY);
     }
@@ -76,7 +76,12 @@ function Layout() {
                     menuExpanded={sidebarExpanded}
                     menuButtonCallback={() => setSidebarExpanded(!sidebarExpanded)}
                 />
-                <div className="l-main-layout" onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd}>
+                <div
+                    className="l-main-layout"
+                    onTouchStart={onTouchStart}
+                    onTouchMove={onTouchMove}
+                    onTouchEnd={onTouchEnd}
+                >
                     <SidebarNav
                         show={sidebarExpanded}
                         linkCallback={() => setSidebarExpanded(false)}
