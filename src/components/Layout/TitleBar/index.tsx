@@ -11,26 +11,21 @@ import logo from '../../../assets/images/logo.svg';
 type TitleBarProps = {
     menuExpanded: boolean;
     menuButtonCallback: () => void;
+    sidebarNavId: string;
 }
 
-const TitleBar = ({ menuExpanded, menuButtonCallback }: TitleBarProps) => {
+const TitleBar = ({ menuExpanded, menuButtonCallback, sidebarNavId }: TitleBarProps) => {
 
     const [showHelp, setShowHelp] = useState(false);
 
     return (
         <>
             <header className="l-header">
-                <Link to={`/`} className="text-decoration-none">
-                    <img src={logo} className="l-header__logo" alt="Shulk Xenoblade"/>
-                </Link>
-                <button className="l-header__help" title="Help" onClick={() => setShowHelp(true)}>
-                    <i className="icon-help"></i>
-                </button>
-
                 <button
                     className="l-header__menu"
                     title={`${(menuExpanded) ? "Hide" : "Show"} Nav Menu`}
                     onClick={menuButtonCallback}
+                    aria-controls={sidebarNavId}
                     aria-expanded={menuExpanded}
                 >
                     {
@@ -39,6 +34,18 @@ const TitleBar = ({ menuExpanded, menuButtonCallback }: TitleBarProps) => {
                             : <i className="icon-hamburger"></i>
                     }
                     
+                </button>
+
+                <Link to={`/`} className="text-decoration-none">
+                    <img src={logo} className="l-header__logo" alt="Shulk Xenoblade"/>
+                </Link>
+                
+                <button
+                    className="l-header__help"
+                    title="Help"
+                    onClick={() => setShowHelp(true)}
+                >
+                    <i className="icon-help"></i>
                 </button>
 
                 <HelpModal

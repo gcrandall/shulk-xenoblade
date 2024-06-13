@@ -19,6 +19,8 @@ function Layout() {
 
     const [sidebarExpanded, setSidebarExpanded] = useState(false);
 
+    const sidebarNavId = "sidebarNav";
+
 
     //--------------------------------------------------
     // SWIPE DETECTION
@@ -75,14 +77,17 @@ function Layout() {
                 <TitleBar
                     menuExpanded={sidebarExpanded}
                     menuButtonCallback={() => setSidebarExpanded(!sidebarExpanded)}
+                    sidebarNavId={sidebarNavId}
                 />
                 <div
+                    id="main-container"
                     className="l-main-layout"
                     onTouchStart={onTouchStart}
                     onTouchMove={onTouchMove}
                     onTouchEnd={onTouchEnd}
                 >
                     <SidebarNav
+                        id={sidebarNavId}
                         show={sidebarExpanded}
                         linkCallback={() => setSidebarExpanded(false)}
                     />

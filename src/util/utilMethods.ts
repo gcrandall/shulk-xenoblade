@@ -1,3 +1,5 @@
+import { useLayoutEffect, useState } from 'react';
+
 /**
  * Returns true if the provided string is empty (null or only contains whitespace).
  * @param str String to check
@@ -37,4 +39,30 @@
     }
 
     return result;
+}
+
+/**
+ * State based on window size, recalculated on resize
+ * @returns {number[]} [width, height]
+ */
+export function useWindowSize(): number[] {
+    const [size, setSize] = useState([0, 0]);
+    useLayoutEffect(() => {
+        function updateSize() {
+            setSize([window.innerWidth, window.innerHeight]);
+        }
+        window.addEventListener('resize', updateSize);
+        updateSize();
+        return () => window.removeEventListener('resize', updateSize);
+    }, []);
+    return size;
+}
+
+/**
+ * Returns true if provided screen width is desktop breakpoint size or larger
+ * @param screenWidth Screen width in pixels
+ * @returns {boolean}
+ */
+export function desktopOrLarger(screenWidth: number): boolean {
+    return (screenWidth >= 1200);
 }

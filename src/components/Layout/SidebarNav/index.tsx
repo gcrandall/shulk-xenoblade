@@ -1,7 +1,11 @@
 // React
 import { Link, useLocation } from 'react-router-dom';
 
+// Util
+import { useWindowSize } from '../../../util/utilMethods';
+
 type SidebarNavProps = {
+    id: string;
     show: boolean;
     linkCallback: () => void;
 }
@@ -11,11 +15,16 @@ type NavLink = {
     path: string;
 }
 
-const SidebarNav = ({ show, linkCallback }: SidebarNavProps) => {
+const SidebarNav = ({ id, show, linkCallback }: SidebarNavProps) => {
 
     //--------------------------------------------------
-    // BASIC PROPS & VARIABLES
+    // BASIC VARIABLES
     //--------------------------------------------------
+
+    const [screenWidth, screenHeight] = useWindowSize();
+
+    const isDesktop = (screenWidth >= 1200);
+    const navbarVisible = (show || isDesktop);
 
     const currentPath = useLocation().pathname;
 
@@ -34,41 +43,42 @@ const SidebarNav = ({ show, linkCallback }: SidebarNavProps) => {
     // BUILD MARKUP
     //--------------------------------------------------
 
-    const linksMarkup: JSX.Element[] = [];
-
-    for (let i = 0; i < internalLinks.length; i++) {
-        linksMarkup.push(
+    const internalLinkElements: JSX.Element[] = internalLinks.map((link, i) => {
+        return (
             <Link
-                to={internalLinks[i].path}
-                className={(internalLinks[i].path === currentPath) ? "active" : ""}
+                to={link.path}
+                className={(link.path === currentPath) ? "active" : ""}
                 onClick={linkCallback}
                 key={`nav-intLink-${i}`}
+                tabIndex={(navbarVisible) ? 0 : -1}
             >
-                <span>{internalLinks[i].title}</span>
+                <span>{link.title}</span>
             </Link>
         );
-    }
+    })
 
-    for (let i = 0; i < externalLinks.length; i++) {
-        linksMarkup.push(
+    const externalLinkElements: JSX.Element[] = externalLinks.map((link, i) => {
+        return (
             <a
-                href={externalLinks[i].path}
+                href={link.path}
                 target="_blank"
                 rel="noreferrer"
                 onClick={linkCallback}
                 key={`nav-extLink-${i}`}
+                tabIndex={(navbarVisible) ? 0 : -1}
             >
-                <span>{externalLinks[i].title}</span>
+                <span>{link.title}</span>
             </a>
         );
-    }
+    })
 
 
     return (
         <>
-            <nav className={`l-main-layout__sidebar ${show ? "active" : ""}`}>
+            <nav id={id} className={`l-main-layout__sidebar ${show ? "active" : ""}`} aria-hidden={!navbarVisible}>
                 <div className="l-main-layout__sidebar-click-target" onClick={linkCallback}></div>
-                {linksMarkup}
+                {internalLinkElements}
+                {externalLinkElements}
             </nav>
         </>
     );
