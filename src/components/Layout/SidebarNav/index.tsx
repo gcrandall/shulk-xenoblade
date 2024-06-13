@@ -21,7 +21,7 @@ const SidebarNav = ({ id, show, linkCallback }: SidebarNavProps) => {
     // BASIC VARIABLES
     //--------------------------------------------------
 
-    const [screenWidth, screenHeight] = useWindowSize();
+    const [screenWidth] = useWindowSize();
 
     const isDesktop = (screenWidth >= 1200);
     const navbarVisible = (show || isDesktop);
