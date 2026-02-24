@@ -1,9 +1,20 @@
 {
     "inheritNotesFrom": null,
     "notesShort": [
-        "This character does a lot of damage over time. Learn how to break off pikmin quickly.",
+        "This character does a lot of damage over time. Learn how to break off Pikmin quickly.",
         "If you get a chance, kill purples to slow him down.",
-        "They nerfed it, but he is still pretty safe after U-Smash on shield, so you should just respect it."
+        "They nerfed it, but he is still pretty safe after U-Smash on shield, so you should just respect it.",
+        "It's best to approach grounded and shield pikmin toss, and to kill the pikmin with Down Tilt on their way back to Olimar.",
+        "Up and Down Air will both beat Olimar Whistle if he tries to use it to escape combos.",
+        "Bad Landings on Olimar will get you Up Smashed out of Shield and take 70%, Stay grounded and do pokes and fade back aerials",
+        "Olimar will have a slower recovery depending on how many Pikmin he's holding. Purple Pikmin weigh more, and White weigh less,he's very vulnerable off stage.",
+        "Nair is able to clear Pikmin off of all three possible spots they can latch onto. It will one-shot everything except Blue and Purple.",
+        "Hitting Pikmin does not stale your moves",
+        "Hitting a Pikmin forces you into extra hit lag for trying to kill them. Use this to your advantage to extend your hitboxes, but watch for Olimar whiff punishing you for your extra hit lag.",
+        "You have to wait until a Pikmin is on the ground after shielding it in order to hit it.",
+        "Blue Pikmin Up Throw is a Kill throw around 125%",
+        "White Pikmin has high damage when latched onto you, especially if in Buster or Jump, play around white carefully.",
+        "If Olimar has Double Purple, he can instant Shield Break you with Run-up Down Smash."
     ],
 
     "busterDthrowComboTree": {
